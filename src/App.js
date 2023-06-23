@@ -5,12 +5,14 @@ import {Route, Routes} from "react-router-dom";
 import {routes} from "./utils/routes";
 import "../src/assets/icons/style.css"
 import Footer from "./pages/footer";
+import Home from "./pages/home";
 
 function App() {
     return <div className="App">
         <Header/>
          <main className="main_content">
               <Routes>
+                  <Route path={"*"} element={<Home/>}/>
                   {routes.map(rout =>(
                       <Route
                           key={rout.id}

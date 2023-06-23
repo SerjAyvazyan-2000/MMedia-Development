@@ -1,0 +1,28 @@
+@import "src/assets/style/variables";
+
+
+
+.footer_bg{
+   background-color: $mainColor;
+}
+.footer_body{
+   padding: 50px 0 ;
+   display: flex;
+   justify-content: space-between;
+    p{
+        color: $white;
+    }
+}
+.footer_logo_text,.footer_services,.footer_contact_us{
+    border: 1px solid red;
+}
+.footer_text{
+   max-width: 500px;
+  text-align: center;
+}
+.footer_logo_text{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

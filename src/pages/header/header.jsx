@@ -9,11 +9,11 @@ const Header = () => {
         <div className="header_wrapper">
             <div className="G-container">
                 <div className="header_body">
-                    <div className="header-logo">
-                        <NavLink>
-                            <img src={logo} alt=""/>
-                        </NavLink>
-                    </div>
+                    {/*<div className="header-logo">*/}
+                    {/*    <NavLink>*/}
+                    {/*        <img src={logo} alt=""/>*/}
+                    {/*    </NavLink>*/}
+                    {/*</div>*/}
 
                     <div className="header-menu">
                         <Menu/>
