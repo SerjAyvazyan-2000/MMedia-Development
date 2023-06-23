@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?o4ulp5');
+  src:  url('fonts/icomoon.eot?o4ulp5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?o4ulp5') format('truetype'),
+    url('fonts/icomoon.woff?o4ulp5') format('woff'),
+    url('fonts/icomoon.svg?o4ulp5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fa6-solid_phone:before {
+  content: "\e903";
+  color: #ffc700;
+}
+.icon-lucide_mail:before {
+  content: "\e904";
+}
+.icon-mi_location:before {
+  content: "\e905";
+  color: #ffc700;
+}
+.icon-teenyicons_instagram-solid:before {
+  content: "\e906";
+  color: #ffc700;
+}
+.icon-uim_whatsapp:before {
+  content: "\e907";
+  color: #ffc700;
+}
+.icon-Vector-2:before {
+  content: "\e900";
+  color: #ffc700;
+}
+.icon-uil_facebook:before {
+  content: "\e909";
+  color: #ffc700;
+}
+.icon-home:before {
+  content: "\e92b";
+}
+.icon-pen:before {
+  content: "\e908";
+}
+.icon-credit-card:before {
+  content: "\e93f";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-address-book:before {
+  content: "\e944";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-shrink2:before {
+  content: "\e98c";
+}
+.icon-info:before {
+  content: "\ea0c";
+}
+.icon-blogger:before {
+  content: "\eab7";
+}
+.icon-home_repair_service:before {
+  content: "\e901";
+}
+.icon-electrical_services:before {
+  content: "\e902";
+}

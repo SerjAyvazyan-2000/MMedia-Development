@@ -1,0 +1,33 @@
+@import "src/assets/style/variables";
+
+.header_section {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.header_wrapper {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 50;
+  height: 120px;
+  background-color: $mainColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.header-menu{
+margin-top: 26px;
+  width: 100%;
+}
+
+.header_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
