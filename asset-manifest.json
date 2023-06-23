@@ -1,16 +1,37 @@
 {
   "files": {
-    "main.css": "/MMedia-Development/static/css/main.6bd5c503.css",
-    "main.js": "/MMedia-Development/static/js/main.7da34557.js",
+    "main.css": "/MMedia-Development/static/css/main.213b2f10.css",
+    "main.js": "/MMedia-Development/static/js/main.2bc22162.js",
     "static/js/787.28cb0dcd.chunk.js": "/MMedia-Development/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/MMedia-Development/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/abstractDrawing.jpg": "/MMedia-Development/static/media/abstractDrawing.e76ccd360a93331b8f26.jpg",
+    "static/media/home.png": "/MMedia-Development/static/media/home.371573fa8b161fdb6aa2.png",
+    "static/media/classicHouse.jpg": "/MMedia-Development/static/media/classicHouse.468b48859333d91a2763.jpg",
+    "static/media/actionpic.png": "/MMedia-Development/static/media/actionpic.63f38dc15caf38e9b17c.png",
+    "static/media/Group 11.png": "/MMedia-Development/static/media/Group 11.2adb8eff178c53104ea0.png",
+    "static/media/teamProcess1.png": "/MMedia-Development/static/media/teamProcess1.658e291845cc3ea3641a.png",
+    "static/media/sixDart.png": "/MMedia-Development/static/media/sixDart.79ba1b52d5375c92c327.png",
+    "static/media/thinkOutside.png": "/MMedia-Development/static/media/thinkOutside.20afce0dc0e8dd4478e2.png",
+    "static/media/businessData.png": "/MMedia-Development/static/media/businessData.be00f036739fb8a52a2b.png",
+    "static/media/portraitGroup.png": "/MMedia-Development/static/media/portraitGroup.0044f5cb21d7138ef83a.png",
+    "static/media/services7.png": "/MMedia-Development/static/media/services7.bcaaf1c8045b68a4a5e3.png",
+    "static/media/services2.png": "/MMedia-Development/static/media/services2.a89c6f61a8abf1ce9ad4.png",
+    "static/media/services3.png": "/MMedia-Development/static/media/services3.9b93e5502f3f5e9ec22b.png",
+    "static/media/services5.png": "/MMedia-Development/static/media/services5.04767a83f95505b21ad5.png",
+    "static/media/services6.png": "/MMedia-Development/static/media/services6.cd4b60fabeabc8d4241d.png",
+    "static/media/services1.png": "/MMedia-Development/static/media/services1.f48958ad81b7298aad95.png",
+    "static/media/icomoon.svg?o4ulp5": "/MMedia-Development/static/media/icomoon.6d248a71812729d24619.svg",
+    "static/media/services4.png": "/MMedia-Development/static/media/services4.b73612feead511e6fa35.png",
+    "static/media/logo.png": "/MMedia-Development/static/media/logo.7259a97b80cfd10f748e.png",
+    "static/media/icomoon.eot?o4ulp5": "/MMedia-Development/static/media/icomoon.dab0d00d8963c15aa96c.eot",
+    "static/media/icomoon.woff?o4ulp5": "/MMedia-Development/static/media/icomoon.110e4fd4221bf2ebc1c7.woff",
+    "static/media/icomoon.ttf?o4ulp5": "/MMedia-Development/static/media/icomoon.cf5a2510cb8cd2ac6ced.ttf",
     "index.html": "/MMedia-Development/index.html",
-    "main.6bd5c503.css.map": "/MMedia-Development/static/css/main.6bd5c503.css.map",
-    "main.7da34557.js.map": "/MMedia-Development/static/js/main.7da34557.js.map",
+    "main.213b2f10.css.map": "/MMedia-Development/static/css/main.213b2f10.css.map",
+    "main.2bc22162.js.map": "/MMedia-Development/static/js/main.2bc22162.js.map",
     "787.28cb0dcd.chunk.js.map": "/MMedia-Development/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bd5c503.css",
-    "static/js/main.7da34557.js"
+    "static/css/main.213b2f10.css",
+    "static/js/main.2bc22162.js"
   ]
 }
