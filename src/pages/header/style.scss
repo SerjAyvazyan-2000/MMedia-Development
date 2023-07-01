@@ -20,6 +20,15 @@
   justify-content: center;
   flex-direction: column;
 
+  @media screen  and (max-width: $md2 + px){
+    height: 100px;
+
+  }
+  @media screen  and (max-width: $md4 + px){
+    height: 80px;
+
+  }
+
 }
 .header-menu{
   width: 100%;
@@ -28,5 +37,85 @@
 .header_body {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+.header-logo{
+
+  a{
+    span{
+       font-size: $fontSize60;
+      color: $darkGold;
+    }
+  }
+}
+.header_contact{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+   span{
+     font-size: $fontSize30;
+
+   }
+}
+
+.burger-btn {
+  display: none;
+  width: 25px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+  z-index: 3;
+
+
+  @media screen and (max-width: $md2 + px) {
+    display: block;
+  }
+
+  span {
+    position: absolute;
+    top: 8px;
+    width: 35px;
+    background: $darkGold;
+    height: 3px;
+    transition: .3s;
+
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 35px;
+    background: $darkGold;
+    height: 3px;
+    transition: .3s;
+
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 35px;
+    background: $darkGold;
+    height: 3px;
+    transition: .3s;
+
+
+  }
+  .active{
+    background: red;
+  }
+}
+.burger-btn.active:before{
+  transform: rotate(45deg);
+  top: 9px;
+
+}
+.burger-btn.active:after{
+  transform: rotate(-45deg);
+  bottom: 9px;
+}
+.burger-btn.active span{
+  transform: scale(0);
 }

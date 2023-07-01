@@ -1,6 +1,11 @@
 import React from 'react';
 import "./style.scss"
-import homeImg from "../../assets/images/home.png"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import homeImg1 from "../../assets/images/home1.jpg"
+import homeImg2 from "../../assets/images/home2.jpg"
+import homeImg from "../../assets/images/buying-new-house-concept.png"
 import whyChose from "../../assets/images/abstractDrawing.jpg"
 import businessData from "../../assets/images/businessData.png"
 import portraitGroup from "../../assets/images/portraitGroup.png"
@@ -9,33 +14,84 @@ import thinkOutside from "../../assets/images/thinkOutside.png"
 import sixDart from "../../assets/images/sixDart.png"
 import actionpic from "../../assets/images/actionpic.png"
 import classicHouse from "../../assets/images/classicHouse.jpg"
-import services1 from "../../assets/images/services1.png"
-import services2 from "../../assets/images/services2.png"
-import services3 from "../../assets/images/services3.png"
-import services4 from "../../assets/images/services4.png"
-import services5 from "../../assets/images/services5.png"
-import services6 from "../../assets/images/services6.png"
-import services7 from "../../assets/images/services7.png"
-import group from "../../assets/images/Group 11.png"
+import services1 from "../../assets/images/Untitled-1-01 2.png"
+import services2 from "../../assets/images/Untitled-1-02 1.png"
+import services3 from "../../assets/images/Untitled-1-03 2.png"
+import services4 from "../../assets/images/Untitled-1-04.png"
+import services5 from "../../assets/images/Untitled-1-05.png"
+import services6 from "../../assets/images/Untitled-1-06.png"
+import services7 from "../../assets/images/Untitled-1-07.png"
+import group from "../../assets/images/pic icons.png"
 
 const Home = () => {
+    let settings = {
+        dots: true,
+        arrows:false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+
+    };
     return (
         <section className="home_section">
             {/*=========================SECTION IMAGE  START====================*/}
-            <div style={{backgroundImage: `url(${homeImg})`}} className="home_image G-image">
-                <div className="home_body">
-                    <div className="G-container">
-                        <div className="home_text">
-                            <p>Welcome to MMedia Development Group, your premier digital marketing partner specializing
-                                in driving growth for mortgage brokers, real estate agents and real estate lawyers.</p>
-                            <div className="home_more_btn">
-                                <button>More</button>
+                <Slider {...settings}>
+                        <div>
+                            <div style={{backgroundImage: `url(${homeImg})`}} className="home_image G-image">
+                                <div className="home_image_bg"></div>
+                                <div className="home_body">
+                                    <div className="G-container">
+                                        <div className="home_text">
+                                            <p>Welcome to MMedia Development Group, your premier digital marketing partner specializing
+                                                in driving growth for mortgage brokers, real estate agents and real estate lawyers.</p>
+                                            <div className="home_more_btn">
+                                                <button>More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
+                    </div>
+
+                        <div>
+                            <div style={{backgroundImage: `url(${homeImg1})`}} className="home_image G-image">
+                                <div className="home_image_bg"></div>
+                                <div className="home_body">
+                                    <div className="G-container">
+                                        <div className="home_text">
+                                            <p> With our proven strategies and industry expertise,
+                                                we're here to help you stand out from the competition and maximize your business potential.</p>
+                                            <div className="home_more_btn">
+                                                <button>More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div>
+                        <div style={{backgroundImage: `url(${homeImg2})`}} className="home_image G-image">
+                            <div className="home_image_bg"></div>
+                            <div className="home_body">
+                                <div className="G-container">
+                                    <div className="home_text">
+                                        <p>SMM  for real estate acts as an excellent resource for people looking to buy a house and has a significant
+                                            influence on every step of a buyer's decision-making journey.</p>
+                                        <div className="home_more_btn">
+                                            <button>More</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </Slider>
+
+
+
             {/*=========================SECTION IMAGE END====================*/}
             {/*=========================SECTION Contact Start====================*/}
 
@@ -128,9 +184,7 @@ const Home = () => {
                         <div className="media_development_description_body">
 
                             <div className="media_development_description_title">
-                                <p>At MMedia Development Group, we offer Professional Video Production Services
-                                    tailored specifically for mortgage brokers, real estate agents, and real estate
-                                    lawyers</p>
+                                <p>Unlock Limitless Success in the Mortgage, Legal, and Real Estate Industry with Our Support</p>
                             </div>
                             <div className="media_development_description_call">
                                 <a href="">CALL</a>
@@ -155,6 +209,10 @@ const Home = () => {
                             <div className="home_our_services_content">
 
                                 <div className="home_our_services_content_rowLeft">
+                                    <div className="home_our_services_content_rowCenter_item_mobile">
+                                        <img src={services4} alt=""/>
+                                        <p>Conversion Rate Optimization</p>
+                                    </div>
                                     <div className="home_our_services_content_rowLeft_item">
                                         <img src={services1} alt=""/>
                                         <p>Professional Video Production</p>

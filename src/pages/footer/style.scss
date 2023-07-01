@@ -9,20 +9,122 @@
    padding: 50px 0 ;
    display: flex;
    justify-content: space-between;
-    p{
+  flex-wrap: wrap;
+
+  p{
         color: $white;
     }
+  @media screen  and (max-width: $md3 + px){
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.footer_body > :not(:last-child){
+  @media screen  and (max-width: 1232px){
+    margin: 0 0 40px;
+  }
 }
 .footer_logo_text,.footer_services,.footer_contact_us{
-    border: 1px solid red;
 }
 .footer_text{
    max-width: 500px;
   text-align: center;
+  line-height: 30px;
 }
 .footer_logo_text{
    display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.footer_logo{
+  span{
+    font-size: 100px;
+    color: $darkGold;
+    cursor: pointer;
+  }
+}
+.footer_logo_text > :not(:last-child){
+   margin: 0 0 20px;
+}
+.footer_text{
+   p{
+      font-size: $fontSize18;
+     font-weight: $weight700;
+   }
+}
+.footer_services_title{
+
+  p{
+     font-size: $fontSize20;
+    font-weight: $weight700;
+    @media screen  and (max-width: $md3 + px){
+      text-align: center;
+    }
+  }
+}
+.footer_services_item{
+display: flex;
+  span{
+     padding:  0 10px 0 0 ;
+    font-size: $fontSize26;
+    color: $lightGold;
+  }
+  p{
+    font-size: $fontSize18;
+
+    font-weight: $weight500;
+
+  }
+}
+.footer_services_items :not(:last-child){
+   margin: 0 0 10px;
+}
+.footer_services > :not(:last-child){
+  margin: 0 0 20px;
+}
+.footer_contact_us_title{
+   p{
+     font-size: $fontSize20;
+     font-weight: $weight700;
+     @media screen  and (max-width: $md3 + px){
+       text-align: center;
+     }
+   }
+}
+.footer_contact_us > :not(:last-child){
+  margin: 0 0 20px;
+}
+.footer_contact_us_item{
+  display: flex;
+  span{
+    padding:  0 10px 0 0 ;
+    font-size: $fontSize26;
+    color: $lightGold;
+  }
+  p{
+     max-width: 250px;
+    font-size: $fontSize18;
+    font-weight: $weight500;
+
+  }
+  a{
+    color: $white;
+  }
+}
+.footer_contact_us_items :not(:last-child){
+  margin: 0 0 20px;
+}
+.footer_contact_us_icons{
+   display: flex;
+  justify-content: flex-end;
+
+  span{
+     margin: 20px;
+    font-size: $fontSize30;
+    cursor: pointer;
+    transition: $transition;
+
+  }
 }

@@ -3,6 +3,21 @@
 .home_image {
   width: 100%;
   height: 100vh;
+  position: relative;
+
+  @media screen and (max-width: $md3 + px) {
+
+  }
+}
+
+.home_image_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: $mainColor;
+  opacity: .6;
 }
 
 .home_body {
@@ -10,6 +25,11 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+
+  @media screen and (max-width: $md3 + px) {
+    align-items: flex-start;
+
+  }
 }
 
 .home_text {
@@ -19,14 +39,19 @@
   justify-content: flex-end;
   flex-direction: column;
   align-items: center;
+  position: relative;
 
   p {
-    font-size: $fontSize40;
+    font-size: calc($fontSize22 + 14 * (100vw / 1920));
     font-weight: $weight700;
     text-align: center;
     color: $white;
   }
 
+  @media screen and (max-width: $md3 + px) {
+    margin-top: 20px;
+    line-height: 40px;
+  }
 
 }
 
@@ -41,7 +66,7 @@
     background: $lightGold;
     font-size: $fontSize26;
     color: $mainColor;
-    font-weight: 700;
+    font-weight: $weight500;
     border-radius: 10px;
     transition: $transition;
 
@@ -65,7 +90,7 @@
 .home_contact_us_title {
 
   p {
-    font-size: $fontSize30;
+    font-size: calc($fontSize20 + 10 * (100vw / 1920));
     color: $white;
     text-align: center;
     max-width: 800px;
@@ -73,7 +98,7 @@
   }
 
   span {
-    font-size: $fontSize30;
+    font-size: calc($fontSize22 + 10 * (100vw / 1920));
     font-weight: $weight700;
     color: $white;
     text-align: center;
@@ -93,7 +118,7 @@
 }
 
 .home_contact_us_title > :not(:last-child) {
-  margin: 0 0 10px;
+  margin: 0 0 30px;
 
 }
 
@@ -137,7 +162,7 @@
     border-radius: 10px;
     color: $white;
     border: 3px solid $lightGold;
-    font-size: $fontSize20;
+    font-size: calc($fontSize16 + 4 * (100vw / 1920));
     position: absolute;
     right: 0;
     height: 100%;
@@ -165,7 +190,7 @@
     padding: 10px;
     background-color: $mainColor;
     color: $white;
-    font-size: $fontSize20;
+    font-size: calc($fontSize16 + 4 * (100vw / 1920));
     border-radius: 10px;
     text-align: center;
 
@@ -208,7 +233,8 @@
 .home_why_choose_body_title {
   p {
     color: $white;
-    font-size: 60px;
+    font-size: calc($fontSize26 + 34 * (100vw / 1920));
+
     text-align: center;
     font-weight: $weight700;
   }
@@ -217,15 +243,48 @@
 .home_why_choose_content {
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: $md2 + px) {
+    flex-wrap: wrap;
 
+  }
+  @media screen and (max-width: $md3 + px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.home_why_choose_items_rowRight {
+  @media screen and (max-width: $md2 + px) {
+    width: 100%;
+    margin-top: 100px;
+
+
+  }
+
+}
+
+.home_why_choose_center_item {
+  @media screen and (max-width: $md3 + px) {
+    margin-top: 100px;
+
+  }
 }
 
 .home_why_choose_items_rowLeft > :not(:last-child) {
   margin: 0 0 200px;
+  @media screen and (max-width: $md3 + px) {
+    margin: 0 0 100px;
+
+  }
 }
 
 .home_why_choose_items_rowRight > :not(:last-child) {
   margin: 0 0 200px;
+  @media screen and (max-width: $md3 + px) {
+    margin: 0 0 100px;
+
+  }
 }
 
 .home_why_choose_rowLeft_item, .home_why_choose_center_item, .home_why_choose_item_rowRight {
@@ -237,12 +296,18 @@
     width: 300px;
     height: 200px;
     object-fit: cover;
+
+    @media screen and (max-width: $md4 + px) {
+      width: 250px;
+      height: 150px;
+    }
   }
 
   p {
     color: $white;
     font-weight: $weight700;
-    font-size: $fontSize30;
+    font-size: calc($fontSize20 + 10 * (100vw / 1920));
+    text-align: center;
   }
 
 }
@@ -299,11 +364,12 @@
 .media_development_description_title {
 
   p {
-    font-size: $fontSize40;
+    font-size: calc($fontSize20 + 20 * (100vw / 1920));
     font-weight: $weight700;
     color: $mainColor;
     text-align: center;
     max-width: 1000px;
+    line-height: 40px;
   }
 }
 
@@ -314,7 +380,7 @@
     padding: 10px;
     background-color: $mainColor;
     color: $white;
-    font-size: $fontSize20;
+    font-size: calc($fontSize16 + 4 * (100vw / 1920));
     border-radius: 10px;
     text-align: center;
 
@@ -338,6 +404,15 @@
     height: 200px;
     object-fit: cover;
     display: block;
+
+    @media screen and (max-width: $md4 + px) {
+      width: 250px;
+      height: 200px;
+    }
+  }
+
+  @media screen and (max-width: $md3 + px) {
+    flex-direction: column;
   }
 }
 
@@ -362,6 +437,7 @@
   justify-content: center;
 }
 
+
 .home_our_services_content_rowCenter_item, .home_our_services_content_rowLeft_item, .home_our_services_content_rowRight_item {
   display: flex;
   flex-direction: column;
@@ -371,7 +447,8 @@
   p {
     color: $white;
     font-weight: $weight700;
-    font-size: $fontSize22;
+    font-size: calc($fontSize20 + 10 * (100vw / 1920));
+    text-align: center;
   }
 }
 
@@ -381,10 +458,17 @@
 
   p {
     color: $lightGold;
-    font-size: 60px;
+    font-size: calc($fontSize26 + 34 * (100vw / 1920));
     text-align: center;
     font-weight: $weight700;
   }
+}
+.home_our_services_content_rowLeft_item{
+  @media screen and (max-width: $md3 + px) {
+    margin: 0 0 100px;
+
+  }
+
 }
 
 .home_our_services_content_rowLeft > :not(:last-child) {
@@ -406,6 +490,31 @@
 .home_our_services_content_rowRight_item > :not(:last-child) {
   margin: 0 0 20px;
 }
+.home_our_services_content_rowCenter_item_mobile > :not(:last-child) {
+  margin: 0 0 20px;
+}
+
+.home_our_services_content_rowCenter_item {
+  @media screen and (max-width: 1393px) {
+    display: none;
+  }
+}
+
+.home_our_services_content_rowCenter_item_mobile {
+  display: none;
+  @media screen and (max-width: 1393px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+      color: $white;
+      font-weight: $weight700;
+      font-size: calc($fontSize20 + 10 * (100vw / 1920));
+      text-align: center;
+    }
+  }
+}
 
 //home_user_question style
 
@@ -425,8 +534,9 @@
   p {
     color: $lightGold;
     text-align: center;
-    font-size: $fontSize40;
+    font-size: calc($fontSize20 + 20 * (100vw / 1920));
     font-weight: $weight700;
+    line-height: 40px;
 
 
   }
@@ -465,7 +575,7 @@
     color: $mainColor;
     max-width: 700px;
     text-align: center;
-    font-size: $fontSize30;
+    font-size: calc($fontSize20 + 10 * (100vw / 1920));
     font-weight: $weight700;
     line-height: 40px;
   }
@@ -483,4 +593,37 @@
 
 .home_media_development_info_text > :not(:last-child) {
   margin: 0 0 50px;
+}
+
+//Slider Style
+.slick-dots {
+
+  bottom: 20px !important;
+  @media screen and (max-width: $md3 + px) {
+    bottom: 100px !important;
+
+  }
+}
+
+.slick-dots li {
+  margin: 0 0 25px;
+  border-radius: 50%;
+  background-color: $darkGold;
+}
+
+.slick-dots li button {
+  display: block;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+}
+
+.slick-track {
+
+  @media screen and (max-width: $md3 + px) {
+    //transform: translate3d(-442px, 0px, 0px) !important;
+
+  }
 }

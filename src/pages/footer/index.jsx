@@ -9,7 +9,7 @@ const Footer = () => {
 
                          <div className="footer_logo_text">
                                  <div className="footer_logo">
-                                     <img src={footerLogo} alt=""/>
+                                     <span className="icon-mmedia-new-logo"></span>
                                  </div>
                              <div className="footer_text">
                                  <p>There are many variations of pass Lorem Ipsum available there is ut
@@ -24,22 +24,58 @@ const Footer = () => {
                                    <p>Our Service</p>
                                </div>
                                <div className="footer_services_items">
-                                   <p>Effective Pay Per Click  Marketing</p>
-                                   <p>Conversion Rate Optimization</p>
-                                   <p>Professional Web Design Services</p>
-                                   <p>SEO Content Writing</p>
-                                   <p>Professional Video Production</p>
-                                   <p>Effective Search Engine Optimization</p>
-                                   <p>Strategic Social Media Marketing</p>
+                                   <div className="footer_services_item">
+                                       <span className="icon-Vector-2"></span>
+                                       <p>Effective Pay Per Click  Marketing</p>
+                                   </div>
+                                   <div className="footer_services_item">
+                                       <span className="icon-Vector-2"></span>
+                                       <p>Conversion Rate Optimization</p>
+                                   </div>
+                                   <div className="footer_services_item">
+                                       <span className="icon-Vector-2"></span>
+                                       <p>Professional Web Design Services</p>
+                                   </div>
+                                   <div className="footer_services_item">
+                                       <span className="icon-Vector-2"></span>
+                                       <p>SEO Content Writing</p>
+                                   </div>
+                                   <div className="footer_services_item">
+                                       <span className="icon-Vector-2"></span>
+                                       <p>Professional Video Production</p>
+                                   </div>
+                                   <div className="footer_services_item">
+                                       <span className="icon-Vector-2"></span>
+                                       <p>Effective Search Engine Optimization</p>
+                                   </div>
+                                   <div className="footer_services_item">
+                                       <span className="icon-Vector-2"></span>
+                                       <p>Strategic Social Media Marketing</p>
+                                   </div>
+
                                </div>
 
                            </div>
 
                          <div className="footer_contact_us">
-                            <div className="footer_contact_us_title"></div>
+                            <div className="footer_contact_us_title">
+                                <p>Contact Us</p>
+                            </div>
                              <div className="footer_contact_us_items">
-                                 <span className="icon-mi_location"></span><p>100 King St West, Suite 5700, Toronto, ON M5X 1C7</p>
-                                  <span className="icon-lucide_mail"></span><p>info@mmediadevelopment.com </p>
+                                 <div className="footer_contact_us_item">
+                                     <span className="icon-mi_location"></span>
+                                     <p>100 King St West, Suite 5700, Toronto, ON M5X 1C7</p>
+                                 </div>
+                                 <div className="footer_contact_us_item">
+                                     <span className="icon-mail4"></span>
+                                     <a href = "mailto: info@mmediadevelopment.com ">info@mmediadevelopment.com </a>
+                                 </div>
+                             </div>
+                             <div className="footer_contact_us_icons">
+                                 <span className="icon-teenyicons_instagram-solid"></span>
+                                 <span className="icon-uil_facebook"></span>
+                                 <span className="icon-uim_whatsapp"></span>
+
                              </div>
                          </div>
                      </div>
