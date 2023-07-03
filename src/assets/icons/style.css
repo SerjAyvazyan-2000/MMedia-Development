@@ -107,3 +107,7 @@
 .icon-electrical_services:before {
   content: "\e902";
 }
+.icon--1:before {
+  content: "\e901";
+  color: #ffc700;
+}
