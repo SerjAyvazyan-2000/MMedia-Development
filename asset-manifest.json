@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/MMedia-Development/static/css/main.ae6d68cf.css",
-    "main.js": "/MMedia-Development/static/js/main.c05cd93f.js",
+    "main.css": "/MMedia-Development/static/css/main.89181588.css",
+    "main.js": "/MMedia-Development/static/js/main.61aa79e6.js",
     "static/js/787.28cb0dcd.chunk.js": "/MMedia-Development/static/js/787.28cb0dcd.chunk.js",
     "static/media/abstractDrawing.jpg": "/MMedia-Development/static/media/abstractDrawing.e76ccd360a93331b8f26.jpg",
+    "static/media/busines.png": "/MMedia-Development/static/media/busines.29350ef8f38f78cca97e.png",
     "static/media/buying-new-house-concept.png": "/MMedia-Development/static/media/buying-new-house-concept.9dbb5fbacb593f721c4d.png",
     "static/media/classicHouse.jpg": "/MMedia-Development/static/media/classicHouse.468b48859333d91a2763.jpg",
     "static/media/actionpic.png": "/MMedia-Development/static/media/actionpic.63f38dc15caf38e9b17c.png",
@@ -32,12 +33,12 @@
     "static/media/slick.ttf": "/MMedia-Development/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/MMedia-Development/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MMedia-Development/index.html",
-    "main.ae6d68cf.css.map": "/MMedia-Development/static/css/main.ae6d68cf.css.map",
-    "main.c05cd93f.js.map": "/MMedia-Development/static/js/main.c05cd93f.js.map",
+    "main.89181588.css.map": "/MMedia-Development/static/css/main.89181588.css.map",
+    "main.61aa79e6.js.map": "/MMedia-Development/static/js/main.61aa79e6.js.map",
     "787.28cb0dcd.chunk.js.map": "/MMedia-Development/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae6d68cf.css",
-    "static/js/main.c05cd93f.js"
+    "static/css/main.89181588.css",
+    "static/js/main.61aa79e6.js"
   ]
 }
