@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MMedia-Development/static/css/main.89181588.css",
-    "main.js": "/MMedia-Development/static/js/main.61aa79e6.js",
+    "main.css": "/MMedia-Development/static/css/main.45693990.css",
+    "main.js": "/MMedia-Development/static/js/main.a65338a3.js",
     "static/js/787.28cb0dcd.chunk.js": "/MMedia-Development/static/js/787.28cb0dcd.chunk.js",
     "static/media/abstractDrawing.jpg": "/MMedia-Development/static/media/abstractDrawing.e76ccd360a93331b8f26.jpg",
     "static/media/busines.png": "/MMedia-Development/static/media/busines.29350ef8f38f78cca97e.png",
@@ -20,25 +20,26 @@
     "static/media/FrankRuhlLibre-Medium_1.woff": "/MMedia-Development/static/media/FrankRuhlLibre-Medium_1.f83fb435ef0c0c050c52.woff",
     "static/media/FrankRuhlLibre-Black.woff": "/MMedia-Development/static/media/FrankRuhlLibre-Black.d18c757e6fb8cbd0164b.woff",
     "static/media/FrankRuhlLibre-Light.woff": "/MMedia-Development/static/media/FrankRuhlLibre-Light.1ba727e767c04dbcfc25.woff",
-    "static/media/icomoon.svg?fbdqt0": "/MMedia-Development/static/media/icomoon.e33dcfc3dd334806735c.svg",
+    "static/media/icomoon.svg?95vuvd": "/MMedia-Development/static/media/icomoon.31912b46586015708e5e.svg",
     "static/media/Untitled-1-06.png": "/MMedia-Development/static/media/Untitled-1-06.0eef359bd9d5b7ae620b.png",
+    "static/media/Untitled-1-03 2 (1).png": "/MMedia-Development/static/media/Untitled-1-03 2 (1).bde7d699696629ad87b3.png",
     "static/media/Untitled-1-03 2.png": "/MMedia-Development/static/media/Untitled-1-03 2.bde7d699696629ad87b3.png",
     "static/media/mmedia.jpg": "/MMedia-Development/static/media/mmedia.a8fa5f687ef14076aec1.jpg",
     "static/media/logo.png": "/MMedia-Development/static/media/logo.7259a97b80cfd10f748e.png",
-    "static/media/icomoon.eot?fbdqt0": "/MMedia-Development/static/media/icomoon.4016ae7ead27a3310149.eot",
-    "static/media/icomoon.woff?fbdqt0": "/MMedia-Development/static/media/icomoon.5bc542b02b141798fc3e.woff",
-    "static/media/icomoon.ttf?fbdqt0": "/MMedia-Development/static/media/icomoon.c29dbec6e01d63369410.ttf",
+    "static/media/icomoon.eot?95vuvd": "/MMedia-Development/static/media/icomoon.4c113fc95339fa521553.eot",
+    "static/media/icomoon.woff?95vuvd": "/MMedia-Development/static/media/icomoon.15ad6263e9d10b195444.woff",
+    "static/media/icomoon.ttf?95vuvd": "/MMedia-Development/static/media/icomoon.d799ce5201f887f4ee1b.ttf",
     "static/media/slick.svg": "/MMedia-Development/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/MMedia-Development/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/MMedia-Development/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/MMedia-Development/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MMedia-Development/index.html",
-    "main.89181588.css.map": "/MMedia-Development/static/css/main.89181588.css.map",
-    "main.61aa79e6.js.map": "/MMedia-Development/static/js/main.61aa79e6.js.map",
+    "main.45693990.css.map": "/MMedia-Development/static/css/main.45693990.css.map",
+    "main.a65338a3.js.map": "/MMedia-Development/static/js/main.a65338a3.js.map",
     "787.28cb0dcd.chunk.js.map": "/MMedia-Development/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89181588.css",
-    "static/js/main.61aa79e6.js"
+    "static/css/main.45693990.css",
+    "static/js/main.a65338a3.js"
   ]
 }
