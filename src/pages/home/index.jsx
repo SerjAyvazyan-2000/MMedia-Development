@@ -22,6 +22,11 @@ import services5 from "../../assets/images/Untitled-1-05.png"
 import services6 from "../../assets/images/Untitled-1-06.png"
 import services7 from "../../assets/images/Untitled-1-07.png"
 import group from "../../assets/images/pic icons.png"
+import choseUs1 from "../../assets/images/1 (2).png"
+import choseUs2 from "../../assets/images/2.png"
+import choseUs3 from "../../assets/images/3.png"
+import choseUs4 from "../../assets/images/4.png"
+import choseUs5 from "../../assets/images/5.png"
 
 const Home = () => {
     let settings = {
@@ -137,11 +142,11 @@ const Home = () => {
                             <div className="home_why_choose_content">
                                 <div className="home_why_choose_items_rowLeft">
                                     <div className="home_why_choose_rowLeft_item">
-                                        <img src={teamProcess} alt=""/>
+                                        <img src={choseUs1} alt=""/>
                                         <p>Industry Expertise</p>
                                     </div>
                                     <div className="home_why_choose_rowLeft_item">
-                                        <img src={businessData} alt=""/>
+                                        <img src={choseUs2} alt=""/>
                                         <p> Data-Driven Approach</p>
                                     </div>
                                 </div>
@@ -149,7 +154,7 @@ const Home = () => {
 
                                 <div className="home_why_choose_items_center">
                                     <div className="home_why_choose_center_item">
-                                        <img src={sixDart} alt=""/>
+                                        <img src={choseUs3} alt=""/>
                                         <p style={{color: 'gold'}}> Targeted Strategies</p>
                                     </div>
                                 </div>
@@ -157,12 +162,12 @@ const Home = () => {
 
                                 <div className="home_why_choose_items_rowRight">
                                     <div className="home_why_choose_item_rowRight">
-                                        <img src={thinkOutside} alt=""/>
+                                        <img src={choseUs4} alt=""/>
                                         <p>Comprehensive Services</p>
 
                                     </div>
                                     <div className="home_why_choose_item_rowRight">
-                                        <img src={portraitGroup} alt=""/>
+                                        <img src={choseUs5} alt=""/>
                                         <p>Transparent Communication</p>
                                     </div>
 

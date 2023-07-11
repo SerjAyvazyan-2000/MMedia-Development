@@ -23,12 +23,11 @@ const Header = () => {
                         <Menu openMenu={openMenu}/>
                     </div>
                     <div className="header_contact">
-                        <a className="header_phone" href=""><span className="icon-phone"></span></a>
+                        <a className="header_phone" href=""><span className="icon-fa6-solid_phone-1"></span></a>
                         <div onClick={handleClick} className={ openMenu ? "burger-btn active" : "burger-btn"}>
                             <span ></span>
                         </div>
                     </div>
-
 
                 </div>
             </div>

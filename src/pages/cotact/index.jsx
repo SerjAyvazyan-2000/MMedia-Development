@@ -1,6 +1,9 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 const Contact = () => {
+    useEffect(()=>{
+         alert('is in  process')
+    },[])
     return (
         <div>
             Contact

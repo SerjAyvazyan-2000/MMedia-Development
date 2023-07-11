@@ -9,7 +9,7 @@ const About = () => {
             <div className="G-container">
                 <div className="about_body">
                     <div className="about_title">
-                        <p>About us!</p>
+                        <h3>About us!</h3>
                         <span>From Real Estate Paralegal to Strategic Role in Digital</span>
                     </div>
 
