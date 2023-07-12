@@ -32,6 +32,9 @@
    align-items: center;
   
 }
+.our_services_body >:not(:last-child){
+  margin: 0 0 40px;
+}
 .our_services_body > :not(:last-child){
   @media screen and (max-width : $md2 + px) {
     margin: 0 0 40px;
