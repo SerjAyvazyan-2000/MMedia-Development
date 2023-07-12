@@ -28,7 +28,7 @@ export const useInformation = () => {
             id:1
         },
         {
-            title:'Why Choose Our Video Production Services?',
+            title:'Why Choose Our Pay Per Click Marketing Services?',
             img:img,
             textNumber1:'1. Targeted Brand Awareness: We understand the importance of establishing a strong brand presence in the highly competitive mortgage brokering, real estate agent, and real estate lawyer industries. Through our Social Media Marketing services, we will create targeted campaigns that increase your brand visibility among your ideal target audience. We will craft compelling content that highlights your' +
                 ' expertise, showcases your unique selling points, and captures the attention of potential clients.',
@@ -44,7 +44,7 @@ export const useInformation = () => {
             id:2
         },
         {
-            title:'Why Choose Our Video Production Services?',
+            title:'Why Choose Our SEO Services?',
             img:img,
             textNumber1:'1. Targeted Brand Awareness: We understand the importance of establishing a strong brand presence in the highly competitive mortgage brokering, real estate agent, and real estate lawyer industries. Through our Social Media Marketing services, we will create targeted campaigns that increase your brand visibility among your ideal target audience. We will craft compelling content that highlights your' +
                 ' expertise, showcases your unique selling points, and captures the attention of potential clients.',
@@ -60,7 +60,7 @@ export const useInformation = () => {
         },
 
         {
-            title:'Why Choose Our Video Production Services?',
+            title:'Why Choose Our Conversion Rate Optimization Service?',
             img:img,
             textNumber1:'1. Targeted Brand Awareness: We understand the importance of establishing a strong brand presence in the highly competitive mortgage brokering, real estate agent, and real estate lawyer industries. Through our Social Media Marketing services, we will create targeted campaigns that increase your brand visibility among your ideal target audience. We will craft compelling content that highlights your' +
                 ' expertise, showcases your unique selling points, and captures the attention of potential clients.',
@@ -77,7 +77,7 @@ export const useInformation = () => {
         },
 
         {
-            title:'Why Choose Our Video Production Services?',
+            title:'Why Choose Our Social Media Marketing Services?',
             img:img,
             textNumber1:'1. Targeted Brand Awareness: We understand the importance of establishing a strong brand presence in the highly competitive mortgage brokering, real estate agent, and real estate lawyer industries. Through our Social Media Marketing services, we will create targeted campaigns that increase your brand visibility among your ideal target audience. We will craft compelling content that highlights your' +
                 ' expertise, showcases your unique selling points, and captures the attention of potential clients.',
@@ -92,7 +92,7 @@ export const useInformation = () => {
             id:5
         },
         {
-            title:'Why Choose Our Video Production Services?',
+            title:'Why Choose Our Web Design Services?',
             img:img,
             textNumber1:'1. Targeted Brand Awareness: We understand the importance of establishing a strong brand presence in the highly competitive mortgage brokering, real estate agent, and real estate lawyer industries. Through our Social Media Marketing services, we will create targeted campaigns that increase your brand visibility among your ideal target audience. We will craft compelling content that highlights your' +
                 ' expertise, showcases your unique selling points, and captures the attention of potential clients.',
@@ -109,7 +109,7 @@ export const useInformation = () => {
         },
 
         {
-            title:'Why Choose Our Video Production Services?',
+            title:'Why Choose Our SEO Content Writing Services?',
             img:img,
             textNumber1:'1. Targeted Brand Awareness: We understand the importance of establishing a strong brand presence in the highly competitive mortgage brokering, real estate agent, and real estate lawyer industries. Through our Social Media Marketing services, we will create targeted campaigns that increase your brand visibility among your ideal target audience. We will craft compelling content that highlights your' +
                 ' expertise, showcases your unique selling points, and captures the attention of potential clients.',
