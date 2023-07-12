@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/MMedia-Development/static/css/main.45693990.css",
-    "main.js": "/MMedia-Development/static/js/main.a65338a3.js",
+    "main.css": "/MMedia-Development/static/css/main.b3125639.css",
+    "main.js": "/MMedia-Development/static/js/main.4951f308.js",
     "static/js/787.28cb0dcd.chunk.js": "/MMedia-Development/static/js/787.28cb0dcd.chunk.js",
     "static/media/abstractDrawing.jpg": "/MMedia-Development/static/media/abstractDrawing.e76ccd360a93331b8f26.jpg",
     "static/media/busines.png": "/MMedia-Development/static/media/busines.29350ef8f38f78cca97e.png",
     "static/media/buying-new-house-concept.png": "/MMedia-Development/static/media/buying-new-house-concept.9dbb5fbacb593f721c4d.png",
     "static/media/classicHouse.jpg": "/MMedia-Development/static/media/classicHouse.468b48859333d91a2763.jpg",
+    "static/media/custumerImgDark.png": "/MMedia-Development/static/media/custumerImgDark.e190dc55f79b92a46100.png",
     "static/media/actionpic.png": "/MMedia-Development/static/media/actionpic.63f38dc15caf38e9b17c.png",
     "static/media/pic icons.png": "/MMedia-Development/static/media/pic icons.2641ff8960c06b9f0cd2.png",
     "static/media/home1.jpg": "/MMedia-Development/static/media/home1.0500c0fc945ab13014b8.jpg",
+    "static/media/costumersImg.png": "/MMedia-Development/static/media/costumersImg.3d5f78acdd080218be25.png",
     "static/media/teamProcess1.png": "/MMedia-Development/static/media/teamProcess1.658e291845cc3ea3641a.png",
     "static/media/sixDart.png": "/MMedia-Development/static/media/sixDart.79ba1b52d5375c92c327.png",
     "static/media/home2.jpg": "/MMedia-Development/static/media/home2.59d25195a9aba0250e0c.jpg",
     "static/media/thinkOutside.png": "/MMedia-Development/static/media/thinkOutside.20afce0dc0e8dd4478e2.png",
     "static/media/businessData.png": "/MMedia-Development/static/media/businessData.be00f036739fb8a52a2b.png",
+    "static/media/costumersImg1.png": "/MMedia-Development/static/media/costumersImg1.e7073fa794e51948ea11.png",
     "static/media/portraitGroup.png": "/MMedia-Development/static/media/portraitGroup.0044f5cb21d7138ef83a.png",
     "static/media/FrankRuhlLibre-Bold.woff": "/MMedia-Development/static/media/FrankRuhlLibre-Bold.a96fa433e4529d64fa78.woff",
     "static/media/FrankRuhlLibre-Medium_1.woff": "/MMedia-Development/static/media/FrankRuhlLibre-Medium_1.f83fb435ef0c0c050c52.woff",
@@ -34,12 +37,12 @@
     "static/media/slick.ttf": "/MMedia-Development/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/MMedia-Development/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MMedia-Development/index.html",
-    "main.45693990.css.map": "/MMedia-Development/static/css/main.45693990.css.map",
-    "main.a65338a3.js.map": "/MMedia-Development/static/js/main.a65338a3.js.map",
+    "main.b3125639.css.map": "/MMedia-Development/static/css/main.b3125639.css.map",
+    "main.4951f308.js.map": "/MMedia-Development/static/js/main.4951f308.js.map",
     "787.28cb0dcd.chunk.js.map": "/MMedia-Development/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45693990.css",
-    "static/js/main.a65338a3.js"
+    "static/css/main.b3125639.css",
+    "static/js/main.4951f308.js"
   ]
 }
