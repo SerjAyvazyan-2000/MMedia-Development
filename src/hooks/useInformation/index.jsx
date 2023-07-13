@@ -25,11 +25,12 @@ export const useInformation = () => {
                 ' that your ads are seen by the most relevant audience, maximizing your return on investment.',
             textNumber5:'5. Analytics and Performance Tracking: We believe in data-driven strategies. Our team will monitor and analyze the performance of your social media campaigns, providing you with valuable insights into audience engagement, campaign reach, and conversion rates. With these metrics in hand, we can continuously refine your strategy,' +
                 ' optimize your campaigns, and deliver measurable results that align with your business goals.',
+            state:'',
             id:1
         },
         {
             title:'Why Choose Our Pay Per Click Marketing Services?',
-            img:img,
+            img:img1,
             textNumber1:'1. Targeted Brand Awareness: We understand the importance of establishing a strong brand presence in the highly competitive mortgage brokering, real estate agent, and real estate lawyer industries. Through our Social Media Marketing services, we will create targeted campaigns that increase your brand visibility among your ideal target audience. We will craft compelling content that highlights your' +
                 ' expertise, showcases your unique selling points, and captures the attention of potential clients.',
             textNumber2:'2. Engaging Content Strategy: Our team of skilled social media marketers excels at creating engaging content that resonates with your target audience. We will develop a content strategy tailored to your industry, delivering valuable information, industry insights, tips, and trends that position you as a trusted authority. By consistently providing relevant and meaningful' +
@@ -41,11 +42,13 @@ export const useInformation = () => {
             textNumber5:'5. Analytics and Performance Tracking: We believe in data-driven strategies. Our team will monitor and analyze the performance of your social media campaigns, providing you with valuable insights into audience engagement, campaign reach, and conversion rates. With these metrics in hand, we can continuously refine your strategy,' +
                 ' optimize your campaigns, and deliver measurable results that align with your business goals.',
             reverse: true,
+            state:'',
+
             id:2
         },
         {
             title:'Why Choose Our SEO Services?',
-            img:img,
+            img:img2,
             textNumber1:'1. Targeted Brand Awareness: We understand the importance of establishing a strong brand presence in the highly competitive mortgage brokering, real estate agent, and real estate lawyer industries. Through our Social Media Marketing services, we will create targeted campaigns that increase your brand visibility among your ideal target audience. We will craft compelling content that highlights your' +
                 ' expertise, showcases your unique selling points, and captures the attention of potential clients.',
             textNumber2:'2. Engaging Content Strategy: Our team of skilled social media marketers excels at creating engaging content that resonates with your target audience. We will develop a content strategy tailored to your industry, delivering valuable information, industry insights, tips, and trends that position you as a trusted authority. By consistently providing relevant and meaningful' +
@@ -56,12 +59,14 @@ export const useInformation = () => {
                 ' that your ads are seen by the most relevant audience, maximizing your return on investment.',
             textNumber5:'5. Analytics and Performance Tracking: We believe in data-driven strategies. Our team will monitor and analyze the performance of your social media campaigns, providing you with valuable insights into audience engagement, campaign reach, and conversion rates. With these metrics in hand, we can continuously refine your strategy,' +
                 ' optimize your campaigns, and deliver measurable results that align with your business goals.',
+            state:'',
+
             id:3
         },
 
         {
             title:'Why Choose Our Conversion Rate Optimization Service?',
-            img:img,
+            img:img3,
             textNumber1:'1. Targeted Brand Awareness: We understand the importance of establishing a strong brand presence in the highly competitive mortgage brokering, real estate agent, and real estate lawyer industries. Through our Social Media Marketing services, we will create targeted campaigns that increase your brand visibility among your ideal target audience. We will craft compelling content that highlights your' +
                 ' expertise, showcases your unique selling points, and captures the attention of potential clients.',
             textNumber2:'2. Engaging Content Strategy: Our team of skilled social media marketers excels at creating engaging content that resonates with your target audience. We will develop a content strategy tailored to your industry, delivering valuable information, industry insights, tips, and trends that position you as a trusted authority. By consistently providing relevant and meaningful' +
@@ -73,12 +78,14 @@ export const useInformation = () => {
             textNumber5:'5. Analytics and Performance Tracking: We believe in data-driven strategies. Our team will monitor and analyze the performance of your social media campaigns, providing you with valuable insights into audience engagement, campaign reach, and conversion rates. With these metrics in hand, we can continuously refine your strategy,' +
                 ' optimize your campaigns, and deliver measurable results that align with your business goals.',
             reverse: true,
+            state:'',
+
             id:4
         },
 
         {
             title:'Why Choose Our Social Media Marketing Services?',
-            img:img,
+            img:img4,
             textNumber1:'1. Targeted Brand Awareness: We understand the importance of establishing a strong brand presence in the highly competitive mortgage brokering, real estate agent, and real estate lawyer industries. Through our Social Media Marketing services, we will create targeted campaigns that increase your brand visibility among your ideal target audience. We will craft compelling content that highlights your' +
                 ' expertise, showcases your unique selling points, and captures the attention of potential clients.',
             textNumber2:'2. Engaging Content Strategy: Our team of skilled social media marketers excels at creating engaging content that resonates with your target audience. We will develop a content strategy tailored to your industry, delivering valuable information, industry insights, tips, and trends that position you as a trusted authority. By consistently providing relevant and meaningful' +
@@ -89,11 +96,13 @@ export const useInformation = () => {
                 ' that your ads are seen by the most relevant audience, maximizing your return on investment.',
             textNumber5:'5. Analytics and Performance Tracking: We believe in data-driven strategies. Our team will monitor and analyze the performance of your social media campaigns, providing you with valuable insights into audience engagement, campaign reach, and conversion rates. With these metrics in hand, we can continuously refine your strategy,' +
                 ' optimize your campaigns, and deliver measurable results that align with your business goals.',
+            state:'',
+
             id:5
         },
         {
             title:'Why Choose Our Web Design Services?',
-            img:img,
+            img:img5,
             textNumber1:'1. Targeted Brand Awareness: We understand the importance of establishing a strong brand presence in the highly competitive mortgage brokering, real estate agent, and real estate lawyer industries. Through our Social Media Marketing services, we will create targeted campaigns that increase your brand visibility among your ideal target audience. We will craft compelling content that highlights your' +
                 ' expertise, showcases your unique selling points, and captures the attention of potential clients.',
             textNumber2:'2. Engaging Content Strategy: Our team of skilled social media marketers excels at creating engaging content that resonates with your target audience. We will develop a content strategy tailored to your industry, delivering valuable information, industry insights, tips, and trends that position you as a trusted authority. By consistently providing relevant and meaningful' +
@@ -105,12 +114,14 @@ export const useInformation = () => {
             textNumber5:'5. Analytics and Performance Tracking: We believe in data-driven strategies. Our team will monitor and analyze the performance of your social media campaigns, providing you with valuable insights into audience engagement, campaign reach, and conversion rates. With these metrics in hand, we can continuously refine your strategy,' +
                 ' optimize your campaigns, and deliver measurable results that align with your business goals.',
             reverse: true,
+            state:'',
+
             id:6
         },
 
         {
             title:'Why Choose Our SEO Content Writing Services?',
-            img:img,
+            img:img6,
             textNumber1:'1. Targeted Brand Awareness: We understand the importance of establishing a strong brand presence in the highly competitive mortgage brokering, real estate agent, and real estate lawyer industries. Through our Social Media Marketing services, we will create targeted campaigns that increase your brand visibility among your ideal target audience. We will craft compelling content that highlights your' +
                 ' expertise, showcases your unique selling points, and captures the attention of potential clients.',
             textNumber2:'2. Engaging Content Strategy: Our team of skilled social media marketers excels at creating engaging content that resonates with your target audience. We will develop a content strategy tailored to your industry, delivering valuable information, industry insights, tips, and trends that position you as a trusted authority. By consistently providing relevant and meaningful' +
@@ -121,6 +132,8 @@ export const useInformation = () => {
                 ' that your ads are seen by the most relevant audience, maximizing your return on investment.',
             textNumber5:'5. Analytics and Performance Tracking: We believe in data-driven strategies. Our team will monitor and analyze the performance of your social media campaigns, providing you with valuable insights into audience engagement, campaign reach, and conversion rates. With these metrics in hand, we can continuously refine your strategy,' +
                 ' optimize your campaigns, and deliver measurable results that align with your business goals.',
+            state:'',
+
             id:7
         },
     ]

@@ -1,0 +1,144 @@
+@import "src/assets/style/variables";
+
+.contact_image {
+  width: 100%;
+  height: 100%;
+}
+
+.contact_section_bg {
+  background-color: $mainColor;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .6;
+}
+
+.contact_body {
+  position: relative;
+
+  @media screen  and (max-width: $md3 + px){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.contact_title {
+  padding: 70px 0 0;
+  position: relative;
+
+  h3 {
+    font-size: calc($fontSize26 + 34 * (100vw / 1920));
+    color: $darkGold;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: calc($fontSize18 + 18 * (100vw / 1920));
+    color: $white;
+    text-align: center;
+    line-height: 40px;
+
+  }
+}
+
+.contact_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+
+  @media screen  and (max-width: $md2 + px){
+    display: block;
+  }
+}
+
+.contact_list_item_phoneNumber, .contact_list_item_location, .contact_list_item_email {
+  position: relative;
+  padding: 20px;
+  background-color: $mainColor;
+  margin: 0 100px 40px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  min-width: 300px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid $darkGold;
+
+  p {
+    color: $darkGold;
+    font-size: calc($fontSize18 + 4 * (100vw / 1920));
+  }
+
+  span {
+    max-width: 200px;
+    color: $white;
+    display: block;
+    font-size: calc($fontSize16 + 6 * (100vw / 1920));
+    margin-top: 10px;
+
+
+  }
+
+  a {
+    color: $white;
+    font-size: calc($fontSize16 + 6 * (100vw / 1920));
+    margin-top: 10px;
+
+  }
+
+}
+
+.contact_list_item_phoneNumber{
+   a,p{
+     text-align: center;
+   }
+}
+.contact_list_item_phoneNumber_icon, {
+  position: absolute;
+  right: 20px;
+  margin: -30px;
+  top: 0;
+
+  span {
+    font-size: calc($fontSize20 + 30 * (100vw / 1920));
+  }
+}
+
+.contact_list_item_email_icon {
+  position: absolute;
+  right: 20px;
+  margin: -21px;
+  top: 0;
+
+  span {
+    font-size: calc($fontSize20 + 30 * (100vw / 1920));
+  }
+}
+
+.contact_list_item_location_icon {
+  position: absolute;
+  right: 20px;
+  margin: -21px;
+  top: 0;
+
+  span {
+    font-size: calc($fontSize20 + 30 * (100vw / 1920));
+  }
+}
+
+.contact_list_item_email_location {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+
+  @media screen  and (max-width: $md2 + px){
+    display: block;
+  }
+}
