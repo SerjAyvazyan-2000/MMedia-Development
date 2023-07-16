@@ -4,14 +4,14 @@ import servicesLogo from "../../assets/images/home1.jpg"
 import business from "../../assets/images/busines.png"
 
 import Spoiler from "../../components/spoiler";
-import img1 from "../../assets/images/Untitled-1-01 2.png"
-import img2 from "../../assets/images/Untitled-1-03 2 (1).png"
-import img3 from "../../assets/images/Untitled-1-04.png"
+import img from "../../assets/images/Untitled-1-01 2.png"
+import img5 from "../../assets/images/Untitled-1-03 2 (1).png"
+import img6 from "../../assets/images/Untitled-1-04.png"
 import img4 from "../../assets/images/Untitled-1-05.png"
-import img5 from "../../assets/images/Untitled-1-06.png"
-import img6 from "../../assets/images/Untitled-1-07.png"
+import img2 from "../../assets/images/Untitled-1-06.png"
+import img3 from "../../assets/images/Untitled-1-07.png"
 import {useInformation} from "../../hooks/useInformation";
-import img from "../../assets/images/Untitled-1-02 1.png";
+import img1 from "../../assets/images/Untitled-1-02 1.png";
 import MyModal from "../../UI/myModal";
 import ServicesItem from "../../components/servicesItem";
 
@@ -41,7 +41,7 @@ const Services = () => {
             mobileTitle: 'Effective Pay Per Click (PPC) Marketing:',
             mobileText: 'At MMedia Development Group, we offer Effective Pay Per Click (PPC) Marketing services specifically designed for mortgage brokers, real estate agents, and real estate lawyers. Our expertise in leveraging PPC advertising empowers you to position your brand in front of high-converting clients, increase ' +
                 'search engine visibility, and achieve immediate results in the digital landscape.',
-            img: img1,
+            img: img2,
             textNumber1: '1. Fast and Immediate Results: In the competitive landscape of mortgage brokering, real estate, and legal services, time is of the essence. Our PPC Marketing services provide you with fast and immediate results. By strategically placing your ads on search engines and relevant platforms, we can drive' +
                 ' targeted traffic to your website or landing pages, generating leads and conversions quickly.',
             textNumber2: '2. High-Converting Client Targeting: We understand that reaching the right audience is essential for success. Through our PPC campaigns, we will implement advanced targeting techniques to ensure your ads are seen by individuals actively seeking mortgage services, real estate assistance, or legal counsel. By focusing on high-converting client targeting, we maximize ' +
@@ -62,7 +62,7 @@ const Services = () => {
             mobileText: 'At MMedia Development Group, we offer Effective Search Engine Optimization (SEO) services specifically designed for mortgage brokers, real estate agents, and real estate lawyers. We understand the importance of a strong online presence in today\'s digital world, and our expert team is dedicated to helping you optimize your' +
                 ' existing webpage to expand your online presence, increase leads, and grow your business',
             mobileTitle: "Effective Search Engine Optimization (SEO) Services:",
-            img: img2,
+            img: img4,
             textNumber1: '1. Customized SEO Strategies: We recognize that every business is unique, with specific goals and target audiences. Our SEO services are customized to suit the needs of mortgage brokers, real estate agents, and real estate lawyers. We will conduct a comprehensive analysis of your website, identifying areas for improvement and developing a tailored SEO strategy that aligns with your objectives. From optimizing on-page elements to improving site structure and navigation, ' +
                 'we will ensure that search engines recognize and rank your webpages for relevant keywords.',
             textNumber2: '2. Expanded Online Presence: In the competitive landscape of mortgage brokering, real estate, and legal services, a strong online presence is crucial for success. Our SEO services are designed to expand your visibility across search engines, directories, and online platforms. We will optimize your website content, meta tags, and other crucial elements to improve your search engine rankings. This increased visibility not only attracts more organic traffic ' +
@@ -82,7 +82,7 @@ const Services = () => {
             mobileText: 'At MMedia Development Group, we specialize in Conversion Rate Optimization (CRO) services that help mortgage brokers, real estate agents, and real estate lawyers reach new levels of success. We understand that driving traffic to your website is only part of the equation. To maximize your business\'s growth and revenue potential, it is crucial to convert those visitors into valuable leads and paying clients. Our expert team will work closely with you to develop a solid CRO' +
                 ' marketing strategy that is expertly tailored to your unique business requirements.',
             mobileTitle: 'Conversion Rate Optimization (CRO) Services:',
-            img: img3,
+            img: img5,
             textNumber1: '1. Tailored CRO Strategies: We recognize that every business has unique goals, target audiences, and conversion challenges. Our CRO services are customized to suit the needs of mortgage brokers, real estate agents, and real estate lawyers. Through in-depth analysis and research, we will identify areas of improvement in your conversion funnel and develop a tailored strategy to optimize each stage. From landing page optimization to call-to-action enhancements, ' +
                 'we will ensure your website is designed to drive conversions and maximize your return on investment (ROI).',
             textNumber2: '2. Expert Data Analysis: Data-driven decision-making is at the core of our CRO approach. Our team of experienced analysts will conduct thorough data analysis to gain insights into user behavior, identify bottlenecks, and uncover opportunities for improvement. By tracking and measuring key performance indicators (KPIs), such as conversion rates, bounce rates, and click-through rates, we will' +
@@ -105,7 +105,7 @@ const Services = () => {
             mobileText: 'At MMedia Development Group, we offer Strategic Social Media Marketing (SMM) services specifically designed for mortgage brokers, real estate agents, and real estate lawyers. Our expertise in leveraging social media platforms empowers you to build brand awareness, forge meaningful connections' +
                 ' with your clients, and drive business growth in the digital age.',
 
-            img: img4,
+            img: img1,
             textNumber1: '1. Targeted Brand Awareness: We understand the importance of establishing a strong brand presence in the highly competitive mortgage brokering, real estate agent, and real estate lawyer industries. Through our Social Media Marketing services, we will create targeted campaigns that increase your brand visibility among your ideal target audience. We will craft compelling content that highlights your expertise,' +
                 ' showcases your unique selling points, and captures the attention of potential clients.',
             textNumber2: '2. Engaging Content Strategy: Our team of skilled social media marketers excels at creating engaging content that resonates with your target audience. We will develop a content strategy tailored to your industry, delivering valuable information, industry insights, tips, and trends that position you as a trusted authority. By consistently providing relevant and' +
@@ -124,7 +124,7 @@ const Services = () => {
             mobileTitle: 'Professional Web Design Services:',
             mobileText: 'At MMedia Development Group, we offer Professional Web Design Services specifically tailored for mortgage brokers, real estate agents, and real estate lawyers. We understand the importance of a strong online presence in today\'s digital landscape, and our expert team is dedicated to helping you leverage your existing business by building a visually stunning and highly functional website. From design and development to ' +
                 'search engine optimization and ongoing site maintenance, we have you covered.',
-            img: img5,
+            img: img3,
             textNumber1: '1. Tailored Websites for Your Industry: We understand the unique needs and requirements of the mortgage brokering, real estate agent, and real estate lawyer industries. Our team of experienced web designers will collaborate with you to create a website that reflects your brand identity and effectively communicates your expertise and services. We will design a user-friendly interface that guides visitors through your ' +
                 'site, showcasing your listings, services, testimonials, and other essential information.',
             textNumber2: '2. Responsive and Mobile-Friendly Design: With the majority of internet users accessing websites through mobile devices, having a responsive and mobile-friendly design is crucial. Our web design services ensure that your website looks stunning and functions seamlessly across all devices and screen sizes. Whether your clients are browsing on a desktop computer, tablet, or smartphone, they' +

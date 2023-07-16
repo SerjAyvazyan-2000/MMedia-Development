@@ -2,7 +2,7 @@ import React from 'react';
 import "./style.scss"
 
 const MyModal = ({item,active,onClose}) => {
-    return <div className={!active ? "popup" : 'popup active'}>
+    return <div onClick={onClose} className={!active ? "popup" : 'popup active'}>
         <div className="popup_content">
              <div className="popup_body">
                      <div className="popup_services_img">

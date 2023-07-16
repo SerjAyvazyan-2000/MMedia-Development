@@ -220,8 +220,7 @@ const Home = () => {
 
                                 <div className="home_our_services_content_rowLeft">
                                     <div className="home_our_services_content_rowCenter_item_mobile">
-                                        {/*<div className="icom-mm-web-icons-03"></div>*/}
-                                        {/*<img src={services4} alt=""/>*/}
+                                        <img src={services4} alt=""/>
                                         <p>Conversion Rate Optimization</p>
                                     </div>
                                     <div className="home_our_services_content_rowLeft_item">
