@@ -167,14 +167,14 @@ const Services = () => {
             text: '1. Industry Expertise: With an extensive track record of working with professionals in the mortgage and real estate industry, we bring valuable insights and knowledge to the table. Our team is well-versed in the intricacies of the market, including the latest regulations, trends, and industry best practices. This expertise allows us to craft tailored strategies ' +
                 'that address the unique challenges and opportunities you face, giving you a competitive edge.',
             id: 1,
-            state:''
+            state: ''
         },
         {
             title: "2. Targeted Strategies: ",
             text: '2. Targeted Strategies: We understand that effective marketing is all about reaching the right audience at the right time. Our team takes the time to understand your business goals, target audience, and local market dynamics. Armed with this information, we develop customized marketing strategies that resonate with your potential clients, driving qualified leads to your business. Whether you are looking to attract first-time homebuyers, expand your referral network,' +
                 ' or boost your online presence, our targeted approach ensures your message reaches the right people.',
             id: 2,
-            state:''
+            state: ''
 
         },
         {
@@ -182,7 +182,7 @@ const Services = () => {
             text: '3. Comprehensive Services: As a full-service digital marketing agency, we provide a comprehensive suite of services to meet your specific needs. From search engine optimization (SEO) to social media marketing, pay-per-click (PPC) advertising to content creation, we have you covered. Our integrated approach ensures that all elements of your digital marketing strategy work together seamlessly, amplifying your reach and impact. We stay on top of the latest ' +
                 'marketing trends and technologies, so you can focus on what you do best while we handle the rest.',
             id: 3,
-            state:''
+            state: ''
 
         },
         {
@@ -190,7 +190,7 @@ const Services = () => {
             text: '4. Data-Driven Approach: We believe that data holds the key to unlocking your business\'s true potential. Our team utilizes advanced analytics tools to track and measure the performance of your campaigns. By analyzing key metrics and consumer behavior, we gain valuable insights into what\'s working and what needs improvement. This data-driven approach enables us to continuously optimize your marketing efforts, ' +
                 'ensuring that every dollar you invest generates maximum return on investment (ROI).',
             id: 4,
-            state:''
+            state: ''
 
         },
         {
@@ -198,12 +198,14 @@ const Services = () => {
             text: '5. Transparent Communication: We value open and honest communication with our clients. Throughout our partnership, we keep you informed about the progress of your campaigns, providing regular updates and detailed reports. We believe that collaboration is the key to success, so we encourage your feedback and input every step of the way. Our dedicated team is readily available to address any questions or concerns' +
                 ' you may have, ensuring that you have complete visibility into the work we\'re doing on your behalf.',
             id: 5,
-            state:''
+            state: ''
 
         }
     ])
 
     const [checked, setChecked] = useState(-1)
+    const [checkedWhyChoose, setCheckedWhyChoose] = useState(-1)
+
     const ref = useRef()
     const [openModal, setOpenModal] = useState(false)
     const [servicesItem, setServicesItem] = useState({
@@ -248,8 +250,24 @@ const Services = () => {
 
     };
     const openSpoiler = (index) => {
-        if(whyChooseList[index].state)
-        console.log(index)
+        if (!whyChooseList[index].state && checkedWhyChoose === -1) {
+            setCheckedWhyChoose(index)
+            whyChooseList[index].state = 'active'
+            setWhyChooseList([...whyChooseList])
+        }
+        if (checkedWhyChoose === index && whyChooseList[index].state) {
+            whyChooseList[index].state = ''
+            setWhyChooseList([...whyChooseList])
+            setCheckedWhyChoose(-1)
+
+        }
+
+        if (!whyChooseList[index].state && checkedWhyChoose !== index) {
+            whyChooseList[checkedWhyChoose].state = ''
+            whyChooseList[index].state = 'active'
+            setWhyChooseList([...whyChooseList])
+            setCheckedWhyChoose(index)
+        }
     }
 
     return <>
@@ -303,11 +321,11 @@ const Services = () => {
                         <div className="services_choose_us_spoiler">
                             {whyChooseList.length ? <>
                                 {whyChooseList.map((item, index) => {
-                                   return <Spoiler
+                                    return <Spoiler
                                         item={item}
                                         index={index}
-                                       openSpoiler={openSpoiler}
-                                   />
+                                        openSpoiler={openSpoiler}
+                                    />
                                 })}
                             </> : null}
 

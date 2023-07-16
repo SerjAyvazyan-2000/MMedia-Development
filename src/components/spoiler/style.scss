@@ -47,12 +47,14 @@
     }
 
   }
-  i{
+
+  i {
     position: absolute;
     right: 10px;
     font-size: calc($fontSize20 + 10 * (100vw / 1920));
-   color: black;
+    color: black;
   }
+
   @media screen and (max-width: 1056px) {
     min-width: 600px;
 
@@ -64,19 +66,16 @@
 }
 
 
-
 .services_spoiler_title_text {
   background-color: $mainColor;
   border-radius: 10px;
   cursor: pointer;
-  opacity: 0;
+  max-height: 0;
   visibility: hidden;
-  transition: .3s;
-  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  transition: .5s;
 
   p {
     font-size: calc($fontSize18 + 6 * (100vw / 1920));
@@ -97,14 +96,12 @@
   }
 
   &.active {
-    opacity: 1;
+    max-height: 1000px;
     visibility: visible;
-    position: relative;
-    transition: .3s;
 
   }
 }
 
-.services_spoiler_title_content{
-   cursor: pointer;
+.services_spoiler_title_content {
+  cursor: pointer;
 }
