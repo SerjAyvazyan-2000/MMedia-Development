@@ -1,0 +1,129 @@
+@import "src/assets/style/variables";
+
+.popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: 0.4s;
+  z-index: 100;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 20px;
+
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+
+    body{
+      &::-webkit-scrollbar{
+        display: none;
+      }
+    }
+  }
+}
+.popup.active body{
+    &::-webkit-scrollbar{
+      display: none;
+    }
+}
+
+
+.popup_content {
+  background-color: $mainColor;
+  position: relative;
+  width: 100%;
+  max-height: 90%;
+  max-width: 1000px;
+  height: 100%;
+  border-radius: 20px;
+  border: 2px solid $darkGold;
+  padding: 20px;
+
+
+}
+
+.popup_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  height: 100%;
+  position: relative;
+  padding: 20px;
+
+  &::-webkit-scrollbar{
+    display: none;
+  }
+}
+
+
+.popup_services_big_title {
+  margin: 20px 0 0;
+
+  p {
+    font-weight: 700;
+    font-size: calc($fontSize18 + 10 * (100vw / 1920));
+    color: $white;
+    text-align: center;
+    margin: 0 0 20px;
+
+  }
+
+  span {
+    font-size: calc($fontSize16 + 8 * (100vw / 1920));
+    color: $white;
+    text-align: center;
+    display: block;
+    line-height: 40px;
+
+
+  }
+}
+
+.popup_services_description {
+  p {
+    margin: 0 0 30px;
+    font-size: calc($fontSize16 + 8 * (100vw / 1920));
+    color: $white;
+    text-align: center;
+    line-height: 30px;
+
+  }
+}
+.popup_services_title{
+   p{
+     font-weight: 700;
+     font-size: calc($fontSize18 + 10 * (100vw / 1920));
+     color: $white;
+     text-align: center;
+   }
+}
+.popup_body > :not(:last-child){
+    margin: 0 0 40px;
+}
+.onclose_popup{
+   position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  transition: .3s;
+  padding: 5px;
+
+
+
+  &:hover{
+    background-color: black;
+    border-radius: 10px;
+
+
+  }
+}

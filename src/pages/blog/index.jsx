@@ -1,12 +1,10 @@
 import React, {useEffect} from 'react';
 import "./style.scss"
 const Blog = () => {
-    useEffect(()=>{
-        alert('is in  process')
-    },[])
+
     return (
-        <div>
-            Blog
+        <div className="block_section">
+            <h3>Blog is in process Sorry !</h3>
         </div>
     );
 };

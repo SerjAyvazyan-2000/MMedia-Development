@@ -101,13 +101,13 @@ const About = () => {
 
                         <div className="about_content_mauricio_info">
                             <div className="about_content_mauricio_info_title">
-                                <h3><span>2</span>words from Mauricio </h3>
+                                <h3><span>2</span>words from Mauricio <span className="icon-ooui_speech-bubbles-ltr-1"></span></h3>
                             </div>
                             <div className="about_content_mauricio_content">
                                 <p>
-                                    I invite you to reach out and schedule a consultation to discuss your digital
+                                    <span className="icon--1"></span>I invite you to reach out and schedule a consultation to discuss your digital
                                     marketing needs. Let's work together to leverage my industry expertise and digital
-                                    marketing prowess to elevate your brand and drive your business forward.
+                                    marketing prowess to elevate your brand and drive your business forward.  <span className="icon-uniE911"></span>
                                 </p>
                             </div>
                         </div>

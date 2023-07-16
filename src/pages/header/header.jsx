@@ -20,7 +20,7 @@ const Header = () => {
                     </div>
 
                     <div className="header-menu">
-                        <Menu openMenu={openMenu}/>
+                        <Menu onClose={handleClick} openMenu={openMenu}/>
                     </div>
                     <div className="header_contact">
                         <a className="header_phone" href=""><span className="icon-fa6-solid_phone-1"></span></a>

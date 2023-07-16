@@ -13,24 +13,25 @@
   left: 0;
   top: 0;
   z-index: 50;
-  height: 120px;
+  height: 100px;
   background-color: $mainColor;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 
-  @media screen  and (max-width: $md2 + px){
-    height: 100px;
+  @media screen and (max-width: $md2 + px) {
+    height: 80px;
 
   }
-  @media screen  and (max-width: $md4 + px){
-    height: 80px;
+  @media screen and (max-width: $md4 + px) {
+    height: 60px;
 
   }
 
 }
-.header-menu{
+
+.header-menu {
   width: 100%;
 }
 
@@ -39,23 +40,35 @@
   align-items: center;
   justify-content: space-between;
 }
-.header-logo{
 
-  a{
-    span{
-       font-size: $fontSize60;
+.header-logo {
+
+  a {
+    span {
+      font-size: $fontSize60;
       color: $darkGold;
+
+      @media screen and (max-width: $md4 + px) {
+        font-size: $fontSize40;
+
+      }
     }
   }
 }
-.header_contact{
+
+.header_contact {
   display: flex;
   gap: 40px;
   align-items: center;
-   span{
-     font-size: $fontSize30;
 
-   }
+  span {
+    font-size: $fontSize30;
+
+    @media screen and (max-width: $md4 + px) {
+      font-size: $fontSize26;
+
+    }
+  }
 }
 
 .burger-btn {
@@ -79,6 +92,13 @@
     height: 3px;
     transition: .3s;
 
+    @media screen and (max-width: $md4 + px) {
+      width: 30px;
+      top: 9px;
+      height: 2px;
+
+
+    }
   }
 
   &::before {
@@ -89,7 +109,10 @@
     background: $darkGold;
     height: 3px;
     transition: .3s;
-
+    @media screen and (max-width: $md4 + px) {
+      width: 30px;
+      height: 2px;
+    }
   }
 
   &::after {
@@ -101,21 +124,28 @@
     height: 3px;
     transition: .3s;
 
-
+    @media screen and (max-width: $md4 + px) {
+      width: 30px;
+      height: 2px;
+    }
   }
-  .active{
+
+  .active {
     background: red;
   }
 }
-.burger-btn.active:before{
+
+.burger-btn.active:before {
   transform: rotate(45deg);
   top: 9px;
 
 }
-.burger-btn.active:after{
+
+.burger-btn.active:after {
   transform: rotate(-45deg);
   bottom: 9px;
 }
-.burger-btn.active span{
+
+.burger-btn.active span {
   transform: scale(0);
 }

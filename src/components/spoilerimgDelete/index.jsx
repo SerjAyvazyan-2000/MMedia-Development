@@ -1,11 +1,12 @@
 import "./style.scss"
 import React, {useState} from 'react';
 
-const SpoilerImg = ({item,index,toggleSpoiler}) => {
+
+const SpoilerImg =   ({item,index,handleClick}) => {
     let elementState = item.state ?  " active " : ''
     return <div className="spoiler_img_block">
         {item.reverse ? <>
-                <div onClick={()=>toggleSpoiler(index)} className={"spoiler_img_item"}>
+                <div  onClick={()=>handleClick(index,item)} className={ "spoiler_img_item"}>
 
                     <div className="spoiler__block_text">
                         <p>  {item.title}</p>
@@ -14,10 +15,8 @@ const SpoilerImg = ({item,index,toggleSpoiler}) => {
                         <img src={item.img} alt=""/>
                     </div>
                     <span className={  'icon-circle-down' + elementState }></span>
-
-
                 </div>
-                <div onClick={()=>toggleSpoiler(index)} className={ "spoiler_img_text" + elementState }>
+                <div onClick={()=>handleClick(index)} className={ "spoiler_img_text" + elementState }>
                     <p>{item.textNumber1}</p>
                     <p>{item.textNumber2}</p>
                     <p>{item.textNumber3}</p>
@@ -28,7 +27,7 @@ const SpoilerImg = ({item,index,toggleSpoiler}) => {
 
             </> :
             <>
-                <div onClick={()=>toggleSpoiler(index)} className={"spoiler_img_item"}>
+                <div   onClick={()=>handleClick(index,item)} className={"spoiler_img_item "}>
                     <span className={  'icon-circle-down' + elementState }></span>
                     <div className="spoiler_block_img">
                         <img src={item.img} alt=""/>
@@ -39,7 +38,7 @@ const SpoilerImg = ({item,index,toggleSpoiler}) => {
                 </div>
 
 
-                <div onClick={()=>toggleSpoiler(index)} className={ "spoiler_img_text" + elementState }>
+                <div onClick={()=>handleClick(index)} className={ "spoiler_img_text" + elementState }>
                     <p>{item.textNumber1}</p>
                     <p>{item.textNumber2}</p>
                     <p>{item.textNumber3}</p>

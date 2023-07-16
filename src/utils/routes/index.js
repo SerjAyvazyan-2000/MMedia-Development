@@ -7,12 +7,12 @@ import Contact from "../../pages/cotact";
 
 
 export const navLinks = [
-    {name:'Home',to:'/home',id:1},
-    {name:'Services',to:'/services',id:2},
-    {name:'Customers',to:'/customers',id:3},
-    {name:'About',to:'/about',id:4},
-    {name:'Blog',to:'/blog',id:5},
-    {name:'Contact Us',to:'/contactUs',id:6},
+    {name:'Home',to:'/home',id:1,icon:'icon-home2'},
+    {name:'Services',to:'/services',id:2,icon:'icon-home_repair_service'},
+    {name:'Customers',to:'/customers',id:3,icon: 'icon-electrical_services'},
+    {name:'About',to:'/about',id:4,icon: 'icon-info'},
+    {name:'Blog',to:'/blog',id:5,icon: 'icon-blog'},
+    {name:'Contact Us',to:'/contactUs',id:6,icon: 'icon-shrink2'},
 
 ]
 

@@ -113,6 +113,9 @@ display: flex;
   }
   a{
     color: $white;
+    font-weight: 700;
+    font-size: calc($fontSize18 + 10 * (100vw / 1920));
+
   }
 }
 .footer_contact_us_items :not(:last-child){
@@ -121,12 +124,17 @@ display: flex;
 .footer_contact_us_icons{
    display: flex;
   justify-content: flex-end;
+  align-items: center;
 
   span{
      margin: 20px;
     font-size: $fontSize30;
     cursor: pointer;
     transition: $transition;
+
+  }
+  .icon_whatsapp {
+    font-size: 35px;
 
   }
 }

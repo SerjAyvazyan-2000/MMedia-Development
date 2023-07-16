@@ -177,6 +177,9 @@
     line-height: 30px;
 
   }
+  span{
+     margin: 0 20px;
+  }
 
 }
 
@@ -203,6 +206,9 @@
     font-weight: 700;
     max-width: 1000px;
     line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
   }
 }

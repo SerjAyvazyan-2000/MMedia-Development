@@ -74,7 +74,7 @@ const Footer = () => {
                              <div className="footer_contact_us_icons">
                                  <span className="icon-teenyicons_instagram-solid"></span>
                                  <span className="icon-uil_facebook"></span>
-                                 <span className="icon-uim_whatsapp"></span>
+                                 <span className="icon-uim_whatsapp icon_whatsapp"></span>
 
                              </div>
                          </div>

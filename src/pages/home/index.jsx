@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./style.scss"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -29,15 +29,20 @@ import choseUs4 from "../../assets/images/4.png"
 import choseUs5 from "../../assets/images/5.png"
 
 const Home = () => {
+    const [loadMore,setLoadMore] = useState(false)
     let settings = {
         dots: true,
         arrows:false,
         infinite: true,
+        autoplay: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
 
     };
+    const openLoadMore = () => {
+        setLoadMore(!loadMore)
+    }
     return (
         <section className="home_section">
             {/*=========================SECTION IMAGE  START====================*/}
@@ -239,7 +244,7 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div className="home_our_services_content_rowRight">
+                                <div className={!loadMore ? "home_our_services_content_rowRight" : 'home_our_services_content_rowRight active'}>
                                     <div className="home_our_services_content_rowRight_item">
                                         <img src={services5} alt=""/>
                                         <p>Strategic Social Media Marketing</p>
@@ -253,6 +258,15 @@ const Home = () => {
                                         <p>SEO Content Writing</p>
                                     </div>
                                 </div>
+                                 <div className={!loadMore ?  "load_more_services" : 'load_more_services active'}>
+                                      <button onClick={openLoadMore}>{!loadMore ? "Load More" : 'Load Less'}
+                                          <span className="icon-circle-down load_more_services_icon"></span>
+
+                                      </button>
+                                 </div>
+
+
+
 
                             </div>
 
