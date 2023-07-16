@@ -413,10 +413,7 @@
 
 
   img {
-    width: 250px;
-    height: 200px;
-    object-fit: cover;
-    display: block;
+
 
     @media screen and (max-width: $md4 + px) {
       width: 250px;
@@ -462,6 +459,11 @@
     font-weight: $weight700;
     font-size: calc($fontSize20 + 10 * (100vw / 1920));
     text-align: center;
+  }
+
+  img{
+     object-fit: cover;
+
   }
 }
 
