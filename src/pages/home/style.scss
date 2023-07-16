@@ -445,14 +445,21 @@
 .home_our_services_content_rowCenter {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-
+.home_our_services_content_rowRight{
+   display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 
 .home_our_services_content_rowCenter_item, .home_our_services_content_rowLeft_item, .home_our_services_content_rowRight_item {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 30%;
 
   p {
     color: $white;
@@ -487,7 +494,11 @@
   }
 
 }
-
+.icon-img{
+   width: 50px;
+  height: 50px;
+  font-size: 50px;
+}
 .home_our_services_content_rowLeft > :not(:last-child) {
   margin: 0 0 100px;
 }

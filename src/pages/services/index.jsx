@@ -19,19 +19,19 @@ import ServicesItem from "../../components/servicesItem";
 const Services = () => {
     const [ourServicesList, setOurServicesList] = useState([
         {
-            title: 'Why Choose Us?',
-            mobileTitle: 'Version 2',
+            title: 'Why Choose Our Video Production Services?',
+            mobileTitle: 'Professional Video Production Services:',
             img: img,
-            textNumber1: '1. Targeted Brand Awareness: We understand the importance of establishing a strong brand presence in the highly competitive mortgage brokering, real estate agent, and real estate lawyer industries. Through our Social Media Marketing services, we will create targeted campaigns that increase your brand visibility among your ideal target audience. We will craft compelling content that highlights your' +
-                ' expertise, showcases your unique selling points, and captures the attention of potential clients.',
-            textNumber2: '2. Engaging Content Strategy: Our team of skilled social media marketers excels at creating engaging content that resonates with your target audience. We will develop a content strategy tailored to your industry, delivering valuable information, industry insights, tips, and trends that position you as a trusted authority. By consistently providing relevant and meaningful' +
-                ' content, we will keep your audience engaged, nurtured, and primed for conversion.',
-            textNumber3: '3. Meaningful Client Connections: Social media platforms offer invaluable opportunities to connect with your clients on a personal level. We will assist you in fostering meaningful relationships by engaging in conversations, responding to inquiries, and addressing client concerns promptly. Through strategic community management, we will build trust and loyalty, ensuring ' +
-                'that your clients feel valued and appreciated, resulting in repeat business and positive referrals.',
-            textNumber4: '4. Targeted Advertising Campaigns: Our Social Media Marketing services include targeted advertising campaigns that reach your ideal clients with precision. We will utilize advanced targeting techniques to identify and reach individuals actively seeking mortgage services, real estate assistance, or legal counsel. By optimizing your ad spend and refining your targeting parameters, we will ensure' +
-                ' that your ads are seen by the most relevant audience, maximizing your return on investment.',
-            textNumber5: '5. Analytics and Performance Tracking: We believe in data-driven strategies. Our team will monitor and analyze the performance of your social media campaigns, providing you with valuable insights into audience engagement, campaign reach, and conversion rates. With these metrics in hand, we can continuously refine your strategy,' +
-                ' optimize your campaigns, and deliver measurable results that align with your business goals.',
+            textNumber1: '1. Niche-Specific Scriptwriting: We understand the unique needs and messaging requirements of the mortgage brokering, real estate agent, and real estate lawyer industries. Our experienced scriptwriters specialize in crafting scripts that address the pain points, challenges, and opportunities specific to these industries. We will provide you with a customized script that highlights your expertise, key' +
+                ' services, and value proposition, ensuring your videos speak directly to your target audience.',
+            textNumber2: '2. Self-Filming Convenience: With our Video Production Services, you have the flexibility to film on your own schedule and in your preferred location. Armed with our expertly crafted scripts, you can capture the footage using your smartphone or chosen recording equipment. This convenience allows you to showcase your unique selling points, provide insightful tips, or share' +
+                ' client success stories while maintaining a personal touch that resonates with your audience.',
+            textNumber3: '3. Professional Editing and Post-Production: Once you have filmed your content, our skilled video editors take over to transform your raw footage into high-quality, professional videos. We employ industry-leading software and techniques to enhance the visual quality, optimize audio, and seamlessly merge your clips. Our editing team adds branding elements, ' +
+                'graphics, and captions as needed, creating engaging videos that align with your brand aesthetics.',
+            textNumber4: '4. Establish Trust and Credibility: As a mortgage broker, real estate agent, or real estate lawyer, building trust and credibility with your audience is vital. Our Video Production Services help you achieve just that. Through professional video production, you can present yourself as an authority in ' +
+                'your industry, delivering valuable insights and demonstrating your expertise. This fosters trust, enhances your brand reputation, and positions you as a go-to professional in your field.',
+            textNumber5: '5. Customization for Your Brand: We understand the importance of maintaining brand consistency. Our team works closely with you to ensure that the final videos align with your brand guidelines and maintain a cohesive visual identity. We incorporate your branding elements, such as logos, colors, and fonts, to create a seamless integration with your existing marketing materials. The result is a' +
+                ' set of videos that reinforce your brand\'s unique identity and resonate with your target audience.',
             state: '',
             mobileText: 'At MMedia Development Group, we offer Professional Video Production Services tailored specifically for mortgage brokers, real estate agents, and real estate lawyers. Our unique approach empowers you to showcase your expertise through video content that resonates with your target audience. With our expert scriptwriting and video editing, we will help you communicate your value proposition effectively, all while leveraging the convenience of self-filming.',
             id: 1
@@ -161,6 +161,48 @@ const Services = () => {
             id: 7
         },
     ])
+    const [whyChooseList, setWhyChooseList] = useState([
+        {
+            title: "1. Industry Expertise:",
+            text: '1. Industry Expertise: With an extensive track record of working with professionals in the mortgage and real estate industry, we bring valuable insights and knowledge to the table. Our team is well-versed in the intricacies of the market, including the latest regulations, trends, and industry best practices. This expertise allows us to craft tailored strategies ' +
+                'that address the unique challenges and opportunities you face, giving you a competitive edge.',
+            id: 1,
+            state:''
+        },
+        {
+            title: "2. Targeted Strategies: ",
+            text: '2. Targeted Strategies: We understand that effective marketing is all about reaching the right audience at the right time. Our team takes the time to understand your business goals, target audience, and local market dynamics. Armed with this information, we develop customized marketing strategies that resonate with your potential clients, driving qualified leads to your business. Whether you are looking to attract first-time homebuyers, expand your referral network,' +
+                ' or boost your online presence, our targeted approach ensures your message reaches the right people.',
+            id: 2,
+            state:''
+
+        },
+        {
+            title: "3. Comprehensive Services: ",
+            text: '3. Comprehensive Services: As a full-service digital marketing agency, we provide a comprehensive suite of services to meet your specific needs. From search engine optimization (SEO) to social media marketing, pay-per-click (PPC) advertising to content creation, we have you covered. Our integrated approach ensures that all elements of your digital marketing strategy work together seamlessly, amplifying your reach and impact. We stay on top of the latest ' +
+                'marketing trends and technologies, so you can focus on what you do best while we handle the rest.',
+            id: 3,
+            state:''
+
+        },
+        {
+            title: "4. Data-Driven Approach:  ",
+            text: '4. Data-Driven Approach: We believe that data holds the key to unlocking your business\'s true potential. Our team utilizes advanced analytics tools to track and measure the performance of your campaigns. By analyzing key metrics and consumer behavior, we gain valuable insights into what\'s working and what needs improvement. This data-driven approach enables us to continuously optimize your marketing efforts, ' +
+                'ensuring that every dollar you invest generates maximum return on investment (ROI).',
+            id: 4,
+            state:''
+
+        },
+        {
+            title: "5. Transparent Communication: ",
+            text: '5. Transparent Communication: We value open and honest communication with our clients. Throughout our partnership, we keep you informed about the progress of your campaigns, providing regular updates and detailed reports. We believe that collaboration is the key to success, so we encourage your feedback and input every step of the way. Our dedicated team is readily available to address any questions or concerns' +
+                ' you may have, ensuring that you have complete visibility into the work we\'re doing on your behalf.',
+            id: 5,
+            state:''
+
+        }
+    ])
+
     const [checked, setChecked] = useState(-1)
     const ref = useRef()
     const [openModal, setOpenModal] = useState(false)
@@ -180,7 +222,7 @@ const Services = () => {
 
 
     const handleClick = (index, item) => {
-            setOpenModal(!openModal)
+        setOpenModal(!openModal)
         if (!openModal && item) {
             setServicesItem(item)
             if (!ourServicesList[index].state && checked === -1) {
@@ -205,6 +247,10 @@ const Services = () => {
 
 
     };
+    const openSpoiler = (index) => {
+        if(whyChooseList[index].state)
+        console.log(index)
+    }
 
     return <>
         <section className="services_section">
@@ -255,51 +301,15 @@ const Services = () => {
                             <span>Here are our answers!</span>
                         </div>
                         <div className="services_choose_us_spoiler">
-                            <Spoiler
-                                title={"1. Industry Expertise:"}
-                                text={"  With an extensive track record of working with professionals in the\n" +
-                                    "                            mortgage and real estate industry, we bring valuable insights and knowledge\n" +
-                                    "                            to the table. Our team is well-versed in the intricacies of the market, including\n" +
-                                    "                            the latest regulations, trends, and industry best practices. This expertise allows\n" +
-                                    "                            us to craft tailored strategies that address the unique challenges and opportunities\n" +
-                                    "                            you face, giving you a competitive edge."}
-                            />
-                            <Spoiler
-                                title={"2. Targeted Strategies: "}
-                                text={"     With an extensive track record of working with professionals in the\n" +
-                                    "                                            mortgage and real estate industry, we bring valuable insights and knowledge\n" +
-                                    "                                            to the table. Our team is well-versed in the intricacies of the market, including\n" +
-                                    "                                            the latest regulations, trends, and industry best practices. This expertise allows\n" +
-                                    "                                            us to craft tailored strategies that address the unique challenges and opportunities\n" +
-                                    "                                            you face, giving you a competitive edge."}
-                            />
-                            <Spoiler
-                                title={"3. Comprehensive Services:"}
-                                text={"With an extensive track record of working with professionals in the\n" +
-                                    "                                           mortgage and real estate industry, we bring valuable insights and knowledge\n" +
-                                    "                                           to the table. Our team is well-versed in the intricacies of the market, including\n" +
-                                    "                                           the latest regulations, trends, and industry best practices. This expertise allows\n" +
-                                    "                                           us to craft tailored strategies that address the unique challenges and opportunities\n" +
-                                    "                                           you face, giving you a competitive edge."}
-                            />
-                            <Spoiler
-                                title={"4. Data-Driven Approach:"}
-                                text={" With an extensive track record of working with professionals in the\n" +
-                                    "                                           mortgage and real estate industry, we bring valuable insights and knowledge\n" +
-                                    "                                           to the table. Our team is well-versed in the intricacies of the market, including\n" +
-                                    "                                           the latest regulations, trends, and industry best practices. This expertise allows\n" +
-                                    "                                           us to craft tailored strategies that address the unique challenges and opportunities\n" +
-                                    "                                           you face, giving you a competitive edge."}
-                            />
-                            <Spoiler
-                                title={"5. Transparent Communication:"}
-                                text={"      With an extensive track record of working with professionals in the\n" +
-                                    "                                           mortgage and real estate industry, we bring valuable insights and knowledge\n" +
-                                    "                                           to the table. Our team is well-versed in the intricacies of the market, including\n" +
-                                    "                                           the latest regulations, trends, and industry best practices. This expertise allows\n" +
-                                    "                                           us to craft tailored strategies that address the unique challenges and opportunities\n" +
-                                    "                                           you face, giving you a competitive edge."}
-                            />
+                            {whyChooseList.length ? <>
+                                {whyChooseList.map((item, index) => {
+                                   return <Spoiler
+                                        item={item}
+                                        index={index}
+                                       openSpoiler={openSpoiler}
+                                   />
+                                })}
+                            </> : null}
 
 
                         </div>

@@ -14,13 +14,13 @@ import thinkOutside from "../../assets/images/thinkOutside.png"
 import sixDart from "../../assets/images/sixDart.png"
 import actionpic from "../../assets/images/actionpic.png"
 import classicHouse from "../../assets/images/classicHouse.jpg"
-import services1 from "../../assets/images/Untitled-1-01 2.png"
-import services2 from "../../assets/images/Untitled-1-02 1.png"
-import services3 from "../../assets/images/Untitled-1-03 2.png"
-import services4 from "../../assets/images/Untitled-1-04.png"
-import services5 from "../../assets/images/Untitled-1-05.png"
-import services6 from "../../assets/images/Untitled-1-06.png"
-import services7 from "../../assets/images/Untitled-1-07.png"
+import services1 from "../../assets/images/mm web icons-01.png"
+import services2 from "../../assets/images/mm web icons-07.png"
+import services3 from "../../assets/images/mm web icons-03.png"
+import services4 from "../../assets/images/mm web icons-05.png"
+import services5 from "../../assets/images/mm web icons-06.png"
+import services6 from "../../assets/images/mm web icons-02.png"
+import services7 from "../../assets/images/mm web icons-04.png"
 import group from "../../assets/images/pic icons.png"
 import choseUs1 from "../../assets/images/1 (2).png"
 import choseUs2 from "../../assets/images/2.png"
@@ -220,7 +220,8 @@ const Home = () => {
 
                                 <div className="home_our_services_content_rowLeft">
                                     <div className="home_our_services_content_rowCenter_item_mobile">
-                                        <img src={services4} alt=""/>
+                                        {/*<div className="icom-mm-web-icons-03"></div>*/}
+                                        {/*<img src={services4} alt=""/>*/}
                                         <p>Conversion Rate Optimization</p>
                                     </div>
                                     <div className="home_our_services_content_rowLeft_item">
@@ -240,6 +241,7 @@ const Home = () => {
                                 <div className="home_our_services_content_rowCenter">
                                     <div className="home_our_services_content_rowCenter_item">
                                         <img src={services4} alt=""/>
+
                                         <p style={{color: 'gold'}}>Conversion Rate Optimization</p>
                                     </div>
                                 </div>
