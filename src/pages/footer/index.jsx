@@ -11,17 +11,12 @@ const Footer = () => {
                                  <div className="footer_logo">
                                      <span className="icon-mmedia-new-logo"></span>
                                  </div>
-                             <div className="footer_text">
-                                 <p>There are many variations of pass Lorem Ipsum available there is ut
-                                     duis vel quis dignissim nulla vel hendrerit maecenasctetur adipisicing elit,
-                                     sed do eiusmod tempor incididunt ut labore et dolore gna aliqua quis nostrud consequat. .
-                                 </p>
-                             </div>
+
                          </div>
 
                            <div className="footer_services">
                                <div className="footer_services_title">
-                                   <p>Our Service</p>
+                                   <p>OUR SERVICE</p>
                                </div>
                                <div className="footer_services_items">
                                    <div className="footer_services_item">
@@ -59,7 +54,7 @@ const Footer = () => {
 
                          <div className="footer_contact_us">
                             <div className="footer_contact_us_title">
-                                <p>Contact Us</p>
+                                <p>CONTACT US</p>
                             </div>
                              <div className="footer_contact_us_items">
                                  <div className="footer_contact_us_item">
