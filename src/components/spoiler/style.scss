@@ -76,6 +76,7 @@
   align-items: center;
   justify-content: center;
   transition: .5s;
+  opacity: 0;
 
   p {
     font-size: calc($fontSize18 + 6 * (100vw / 1920));
@@ -98,7 +99,7 @@
   &.active {
     max-height: 1000px;
     visibility: visible;
-
+    opacity: 1;
   }
 }
 
