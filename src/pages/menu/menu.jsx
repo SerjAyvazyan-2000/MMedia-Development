@@ -16,7 +16,6 @@ const Menu = ({openMenu,onClose}) => {
                   </li>
              ))}
          </ul>
-            {/*teset*/}
     </nav>
         </>
 
