@@ -25,10 +25,7 @@
     margin-top: 80px;
 
   }
-  @media screen  and (max-width: $md4 + px){
-    margin-top: 60px;
 
-  }
 }
 .nav-bg{
   @media screen and (max-width: $md2 + px) {
@@ -47,10 +44,7 @@
       margin-top: 80px;
 
     }
-    @media screen  and (max-width: $md4 + px){
-      margin-top: 60px;
 
-    }
     &.active{
        opacity: 0;
       visibility: hidden;

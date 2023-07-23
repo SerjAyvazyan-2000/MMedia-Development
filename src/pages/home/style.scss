@@ -26,10 +26,7 @@
   align-items: center;
   height: 100%;
 
-  @media screen and (max-width: $md3 + px) {
-    align-items: flex-start;
 
-  }
 }
 
 .home_text {
@@ -697,15 +694,15 @@
   }
 }
 
-//.home_media_development_info_bg {
-//  position: absolute;
-//  left: 0;
-//  top: 0;
-//  width: 100%;
-//  height: 100%;
-//  opacity: .7;
-//  background-color: $white;
-//}
+.home_media_development_info_bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .7;
+  background-color: $white;
+}
 
 .home_media_development_info_text > :not(:last-child) {
   margin: 0 0 50px;
