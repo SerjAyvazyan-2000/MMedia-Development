@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MMedia-Development/static/css/main.497064fb.css",
-    "main.js": "/MMedia-Development/static/js/main.657412b6.js",
+    "main.css": "/MMedia-Development/static/css/main.53b4e25a.css",
+    "main.js": "/MMedia-Development/static/js/main.da01f61b.js",
     "static/js/787.28cb0dcd.chunk.js": "/MMedia-Development/static/js/787.28cb0dcd.chunk.js",
     "static/media/abstractDrawing.jpg": "/MMedia-Development/static/media/abstractDrawing.e76ccd360a93331b8f26.jpg",
     "static/media/busines.png": "/MMedia-Development/static/media/busines.29350ef8f38f78cca97e.png",
+    "static/media/hands-typing-laptop.jpg": "/MMedia-Development/static/media/hands-typing-laptop.90d5868f79a977969ad0.jpg",
     "static/media/buying-new-house-concept.png": "/MMedia-Development/static/media/buying-new-house-concept.9dbb5fbacb593f721c4d.png",
     "static/media/classicHouse.jpg": "/MMedia-Development/static/media/classicHouse.468b48859333d91a2763.jpg",
     "static/media/custumerImgDark.png": "/MMedia-Development/static/media/custumerImgDark.e190dc55f79b92a46100.png",
     "static/media/actionpic.png": "/MMedia-Development/static/media/actionpic.63f38dc15caf38e9b17c.png",
-    "static/media/pic mission.png": "/MMedia-Development/static/media/pic mission.2641ff8960c06b9f0cd2.png",
     "static/media/contactImg.jpg": "/MMedia-Development/static/media/contactImg.b575f35e05375c77eb1d.jpg",
     "static/media/home1.jpg": "/MMedia-Development/static/media/home1.0500c0fc945ab13014b8.jpg",
     "static/media/costumersImg.png": "/MMedia-Development/static/media/costumersImg.3d5f78acdd080218be25.png",
@@ -37,12 +37,12 @@
     "static/media/slick.ttf": "/MMedia-Development/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/MMedia-Development/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MMedia-Development/index.html",
-    "main.497064fb.css.map": "/MMedia-Development/static/css/main.497064fb.css.map",
-    "main.657412b6.js.map": "/MMedia-Development/static/js/main.657412b6.js.map",
+    "main.53b4e25a.css.map": "/MMedia-Development/static/css/main.53b4e25a.css.map",
+    "main.da01f61b.js.map": "/MMedia-Development/static/js/main.da01f61b.js.map",
     "787.28cb0dcd.chunk.js.map": "/MMedia-Development/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.497064fb.css",
-    "static/js/main.657412b6.js"
+    "static/css/main.53b4e25a.css",
+    "static/js/main.da01f61b.js"
   ]
 }
