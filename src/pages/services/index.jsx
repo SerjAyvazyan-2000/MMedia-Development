@@ -225,6 +225,11 @@ const Services = () => {
 
     const handleClick = (index, item) => {
         setOpenModal(!openModal)
+        if(openModal){
+            document.body.classList.remove('G-hidden')
+        }else{
+            document.body.classList.add('G-hidden')
+        }
         if (!openModal && item) {
             setServicesItem(item)
             if (!ourServicesList[index].state && checked === -1) {
@@ -236,7 +241,6 @@ const Services = () => {
                 ourServicesList[index].state = ''
                 setOurServicesList([...ourServicesList])
                 setChecked(-1)
-
             }
 
             if (!ourServicesList[index].state && checked !== index) {
@@ -246,8 +250,6 @@ const Services = () => {
                 setChecked(index)
             }
         }
-
-
     };
     const openSpoiler = (index) => {
         if (!whyChooseList[index].state && checkedWhyChoose === -1) {
@@ -316,7 +318,6 @@ const Services = () => {
                             <div className="services_choose_us_title_icon">
                                 <h3>Why Choose Us</h3><span className="icon-Vector"></span>
                             </div>
-                            <span>Here are our answers!</span>
                         </div>
                         <div className="services_choose_us_spoiler">
                             {whyChooseList.length ? <>
@@ -329,9 +330,7 @@ const Services = () => {
                                 })}
                             </> : null}
 
-
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -342,9 +341,7 @@ const Services = () => {
         <MyModal
             onClose={handleClick}
             active={openModal}
-            item={servicesItem}
-        />
-
+            item={servicesItem}/>
 
     </>
 };
