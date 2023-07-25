@@ -205,6 +205,7 @@ const Services = () => {
 
     const [checked, setChecked] = useState(-1)
     const [checkedWhyChoose, setCheckedWhyChoose] = useState(-1)
+    const [activeSpoiler, setActiveSpoiler] = useState(null)
 
     const ref = useRef()
     const [openModal, setOpenModal] = useState(false)
@@ -225,9 +226,9 @@ const Services = () => {
 
     const handleClick = (index, item) => {
         setOpenModal(!openModal)
-        if(openModal){
+        if (openModal) {
             document.body.classList.remove('G-hidden')
-        }else{
+        } else {
             document.body.classList.add('G-hidden')
         }
         if (!openModal && item) {
@@ -242,7 +243,6 @@ const Services = () => {
                 setOurServicesList([...ourServicesList])
                 setChecked(-1)
             }
-
             if (!ourServicesList[index].state && checked !== index) {
                 ourServicesList[checked].state = ''
                 ourServicesList[index].state = 'active'
@@ -252,24 +252,28 @@ const Services = () => {
         }
     };
     const openSpoiler = (index) => {
-        if (!whyChooseList[index].state && checkedWhyChoose === -1) {
-            setCheckedWhyChoose(index)
-            whyChooseList[index].state = 'active'
-            setWhyChooseList([...whyChooseList])
+        if (index === activeSpoiler) {
+            setActiveSpoiler(null)
+        } else {
+            setActiveSpoiler(index)
         }
-        if (checkedWhyChoose === index && whyChooseList[index].state) {
-            whyChooseList[index].state = ''
-            setWhyChooseList([...whyChooseList])
-            setCheckedWhyChoose(-1)
-
-        }
-
-        if (!whyChooseList[index].state && checkedWhyChoose !== index) {
-            whyChooseList[checkedWhyChoose].state = ''
-            whyChooseList[index].state = 'active'
-            setWhyChooseList([...whyChooseList])
-            setCheckedWhyChoose(index)
-        }
+        // if (!whyChooseList[index].state && checkedWhyChoose === -1) {
+        //     setCheckedWhyChoose(index)
+        //     whyChooseList[index].state = 'active'
+        //     setWhyChooseList([...whyChooseList])
+        // }
+        // if (checkedWhyChoose === index && whyChooseList[index].state) {
+        //     whyChooseList[index].state = ''
+        //     setWhyChooseList([...whyChooseList])
+        //     setCheckedWhyChoose(-1)
+        // }
+        //
+        // if (!whyChooseList[index].state && checkedWhyChoose !== index) {
+        //     whyChooseList[checkedWhyChoose].state = ''
+        //     whyChooseList[index].state = 'active'
+        //     setWhyChooseList([...whyChooseList])
+        //     setCheckedWhyChoose(index)
+        // }
     }
 
     return <>
@@ -325,6 +329,7 @@ const Services = () => {
                                     return <Spoiler
                                         item={item}
                                         index={index}
+                                        isActive={index === activeSpoiler}
                                         openSpoiler={openSpoiler}
                                     />
                                 })}
