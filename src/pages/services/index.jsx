@@ -275,7 +275,6 @@ const Services = () => {
         //     setCheckedWhyChoose(index)
         // }
     }
-
     return <>
         <section className="services_section">
             <div style={{backgroundImage: `url(${business})`}} className='our_services_image G-image'>
