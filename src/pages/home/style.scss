@@ -5,7 +5,6 @@
   height: 100vh;
   position: relative;
   @media screen and (max-width: $md3 + px) {
-    height: 70vh;
     background-position-x: 70%;
   }
 }
@@ -714,7 +713,7 @@
 
   bottom: 20px !important;
   @media screen and (max-width: $md3 + px) {
-    bottom: 100px !important;
+    bottom: 50px !important;
 
   }
 }
