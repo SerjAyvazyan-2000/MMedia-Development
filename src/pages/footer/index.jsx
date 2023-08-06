@@ -20,31 +20,31 @@ const Footer = () => {
                                </div>
                                <div className="footer_services_items">
                                    <div className="footer_services_item">
-                                       <span className="icon-Vector-2"></span>
+                                       <span className="icon-checkmark"></span>
                                        <p>Effective Pay Per Click  Marketing</p>
                                    </div>
                                    <div className="footer_services_item">
-                                       <span className="icon-Vector-2"></span>
+                                       <span className="icon-checkmark"></span>
                                        <p>Conversion Rate Optimization</p>
                                    </div>
                                    <div className="footer_services_item">
-                                       <span className="icon-Vector-2"></span>
+                                       <span className="icon-checkmark"></span>
                                        <p>Professional Web Design Services</p>
                                    </div>
                                    <div className="footer_services_item">
-                                       <span className="icon-Vector-2"></span>
+                                       <span className="icon-checkmark"></span>
                                        <p>SEO Content Writing</p>
                                    </div>
                                    <div className="footer_services_item">
-                                       <span className="icon-Vector-2"></span>
+                                       <span className="icon-checkmark"></span>
                                        <p>Professional Video Production</p>
                                    </div>
                                    <div className="footer_services_item">
-                                       <span className="icon-Vector-2"></span>
+                                       <span className="icon-checkmark"></span>
                                        <p>Effective Search Engine Optimization</p>
                                    </div>
                                    <div className="footer_services_item">
-                                       <span className="icon-Vector-2"></span>
+                                       <span className="icon-checkmark"></span>
                                        <p>Strategic Social Media Marketing</p>
                                    </div>
 
@@ -58,7 +58,7 @@ const Footer = () => {
                             </div>
                              <div className="footer_contact_us_items">
                                  <div className="footer_contact_us_item">
-                                     <span className="icon-mi_location"></span>
+                                     <span className="icon-location"></span>
                                      <p>USA: 550 West B Street, 4th Floor, San Diego, CA 92101</p>
                                  </div>
 

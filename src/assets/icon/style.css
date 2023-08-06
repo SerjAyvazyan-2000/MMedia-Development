@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?pmxkou');
-  src:  url('fonts/icomoon.eot?pmxkou#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?pmxkou') format('truetype'),
-    url('fonts/icomoon.woff?pmxkou') format('woff'),
-    url('fonts/icomoon.svg?pmxkou#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?9rakkf');
+  src:  url('fonts/icomoon.eot?9rakkf#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9rakkf') format('truetype'),
+    url('fonts/icomoon.woff?9rakkf') format('woff'),
+    url('fonts/icomoon.svg?9rakkf#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,31 +25,96 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Vector2x:before {
+  content: "\e900";
+  color: #ffc700;
+}
+.icon-uim_whatsapp:before {
+  content: "\e902";
+  color: #ffc700;
+}
+.icon-uil_facebook:before {
+  content: "\e903";
+  color: #ffc700;
+}
+.icon-teenyicons_instagram-solid:before {
+  content: "\e904";
+  color: #ffc700;
+}
+.icon-ooui_speech-bubbles-ltr:before {
+  content: "\e905";
+  color: #ffc700;
+}
+.icon-uniE906:before {
+  content: "\e906";
+  color: #ffc700;
+}
+.icon-fa-solid_question-1:before {
+  content: "\e907";
+  color: #ffc700;
+}
+.icon-Vector:before {
+  content: "\e909";
+  color: #ffc700;
+}
 .icon-Vector-3:before {
   content: "\e90b";
   color: #fff;
 }
-.icon-cart:before {
-  content: "\e93a";
+.icon-mmedia-new-logo1:before {
+  content: "\e90c";
 }
-.icon-credit-card:before {
-  content: "\e93f";
+.icon-mmedia-new-logo:before {
+  content: "\e90a";
+}
+.icon-home:before {
+  content: "\e92b";
+}
+.icon-home2:before {
+  content: "\e912";
+}
+.icon-pen:before {
+  content: "\e908";
+}
+.icon-blog:before {
+  content: "\e915";
 }
 .icon-phone:before {
   content: "\e942";
 }
-.icon-envelop:before {
-  content: "\e945";
+.icon-location:before {
+  content: "\e947";
 }
-.icon-mobile2:before {
-  content: "\e959";
+.icon-location2:before {
+  content: "\e948";
 }
-.icon-mail:before {
-  content: "\ea83";
+.icon-users:before {
+  content: "\e972";
 }
-.icon-whatsapp:before {
-  content: "\ea93";
+.icon-shrink2:before {
+  content: "\e98c";
 }
-.icon-telegram:before {
-  content: "\ea95";
+.icon-info:before {
+  content: "\ea0c";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-checkmark2:before {
+  content: "\ea11";
+}
+.icon-checkbox-checked:before {
+  content: "\ea52";
+}
+.icon-ungroup:before {
+  content: "\ea59";
+}
+.icon-home_repair_service:before {
+  content: "\e913";
+}
+.icon-electrical_services:before {
+  content: "\e914";
+}
+.icon-perm_device_information:before {
+  content: "\e901";
 }

@@ -3,7 +3,7 @@ import "./assets/style/index.scss"
 import Header from "./pages/header/header";
 import {Route, Routes} from "react-router-dom";
 import {routes} from "./utils/routes";
-import "../src/assets/icons/style.css"
+import "../src/assets/icon/style.css"
 import Footer from "./pages/footer";
 import Home from "./pages/home";
 
