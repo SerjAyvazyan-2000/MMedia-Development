@@ -59,17 +59,26 @@ const Footer = () => {
                              <div className="footer_contact_us_items">
                                  <div className="footer_contact_us_item">
                                      <span className="icon-mi_location"></span>
-                                     <p>100 King St West, Suite 5700, Toronto, ON M5X 1C7</p>
+                                     <p>USA: 550 West B Street, 4th Floor, San Diego, CA 92101</p>
                                  </div>
+
                                  <div className="footer_contact_us_item">
                                      <span className="icon-mail4"></span>
                                      <a href = "mailto: info@mmediadevelopment.com ">info@mmediadevelopment.com </a>
                                  </div>
                              </div>
                              <div className="footer_contact_us_icons">
-                                 <span className="icon-teenyicons_instagram-solid"></span>
-                                 <span className="icon-uil_facebook"></span>
-                                 <span className="icon-uim_whatsapp icon_whatsapp"></span>
+                                 <a href="https://www.instagram.com/mmediadevelopment/?igshid=OGQ5ZDc2ODk2ZA">
+                                     <span className="icon-teenyicons_instagram-solid"></span>
+                                 </a>
+                                 <a href="https://www.facebook.com/profile.php?id=100095503748806&mibextid=LQQJ4d">
+                                     <span className="icon-uil_facebook"></span>
+
+                                 </a>
+                                 <a href="https://wa.me/+1 (805) 919‑8069">
+                                     <span className="icon-uim_whatsapp icon_whatsapp"></span>
+
+                                 </a>
 
                              </div>
                          </div>

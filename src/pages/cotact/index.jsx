@@ -18,7 +18,7 @@ const Contact = () => {
                     <div className="contact_list">
                         <div className="contact_list_item_phoneNumber">
                             <p>Phone number:</p>
-                            <a href="tel:+12505550199">+12505550199</a>
+                            <a href="tel:+1-647-493-8100">+1-647-493-8100</a>
                             <div className="contact_list_item_phoneNumber_icon">
                                 <span className="icon-fa6-solid_phone-1"></span>
 
@@ -27,8 +27,7 @@ const Contact = () => {
                         <div className="contact_list_item_email_location">
                             <div className="contact_list_item_location">
                                 <p>Office Locations:</p>
-                                <span>Canada: 212 King Street West, 6th Floor Toronto, ON M5H 1K5
-USA: 550 West B Street, 4th Floor, San Diego, CA 92101</span>
+                                <span>USA: 550 West B Street, 4th Floor, San Diego, CA 92101</span>
                                 <div className="contact_list_item_location_icon">
                                     <span className="icon-mi_location"></span>
 

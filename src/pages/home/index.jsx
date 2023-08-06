@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useRef, useState} from 'react';
 import "./style.scss"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -27,12 +27,13 @@ import choseUs2 from "../../assets/images/2.png"
 import choseUs3 from "../../assets/images/3.png"
 import choseUs4 from "../../assets/images/4.png"
 import choseUs5 from "../../assets/images/5.png"
+import * as emailjs from "@emailjs/browser";
 
 const Home = () => {
-    const [loadMore,setLoadMore] = useState(false)
+    const [loadMore, setLoadMore] = useState(false)
     let settings = {
         dots: true,
-        arrows:false,
+        arrows: false,
         infinite: true,
         // autoplay: true,
         speed: 500,
@@ -43,63 +44,68 @@ const Home = () => {
     const openLoadMore = () => {
         setLoadMore(!loadMore)
     }
+
+
     return (
         <section className="home_section">
             {/*=========================SECTION IMAGE  START====================*/}
-                <Slider {...settings}>
-                        <div>
-                            <div style={{backgroundImage: `url(${homeImg})`}} className="home_image G-image">
-                                <div className="home_image_bg"></div>
-                                <div className="home_body">
-                                    <div className="G-container">
-                                        <div className="home_text">
-                                            <p>Welcome to MMedia Development Group, your premier digital marketing partner specializing
-                                                in driving growth for mortgage brokers, real estate agents and real estate lawyers.</p>
-                                            <div className="home_more_btn">
-                                                <button>More</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                    </div>
-
-                        <div>
-                            <div style={{backgroundImage: `url(${homeImg1})`}} className="home_image G-image">
-                                <div className="home_image_bg"></div>
-                                <div className="home_body">
-                                    <div className="G-container">
-                                        <div className="home_text">
-                                            <p> With our proven strategies and industry expertise,
-                                                we're here to help you stand out from the competition and maximize your business potential.</p>
-                                            <div className="home_more_btn">
-                                                <button>More</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    <div>
-                        <div style={{backgroundImage: `url(${homeImg2})`}} className="home_image G-image">
-                            <div className="home_image_bg"></div>
-                            <div className="home_body">
-                                <div className="G-container">
-                                    <div className="home_text">
-                                        <p>SMM  for real estate acts as an excellent resource for people looking to buy a house and has a significant
-                                            influence on every step of a buyer's decision-making journey.</p>
-                                        <div className="home_more_btn">
-                                            <button>More</button>
-                                        </div>
+            <Slider {...settings}>
+                <div>
+                    <div style={{backgroundImage: `url(${homeImg})`}} className="home_image G-image">
+                        <div className="home_image_bg"></div>
+                        <div className="home_body">
+                            <div className="G-container">
+                                <div className="home_text">
+                                    <p>Welcome to MMedia Development Group, your premier digital marketing partner
+                                        specializing
+                                        in driving growth for mortgage brokers, real estate agents and real estate
+                                        lawyers.</p>
+                                    <div className="home_more_btn">
+                                        <button>More</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </Slider>
 
+                </div>
+
+                <div>
+                    <div style={{backgroundImage: `url(${homeImg1})`}} className="home_image G-image">
+                        <div className="home_image_bg"></div>
+                        <div className="home_body">
+                            <div className="G-container">
+                                <div className="home_text">
+                                    <p> With our proven strategies and industry expertise,
+                                        we're here to help you stand out from the competition and maximize your business
+                                        potential.</p>
+                                    <div className="home_more_btn">
+                                        <button>More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div style={{backgroundImage: `url(${homeImg2})`}} className="home_image G-image">
+                        <div className="home_image_bg"></div>
+                        <div className="home_body">
+                            <div className="G-container">
+                                <div className="home_text">
+                                    <p>SMM for real estate acts as an excellent resource for people looking to buy a
+                                        house and has a significant
+                                        influence on every step of a buyer's decision-making journey.</p>
+                                    <div className="home_more_btn">
+                                        <button>More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Slider>
 
 
             {/*=========================SECTION IMAGE END====================*/}
@@ -117,15 +123,17 @@ const Home = () => {
                             </div>
 
                             <div className="home_contact_us_form">
-                                <div className="home_contact_email">
-                                    <label htmlFor="">
-                                        <input type="text" placeholder="Enter email address"/>
-                                        <button>SEND</button>
-                                    </label>
+                                    <div className="home_contact_email">
+                                        <label htmlFor="">
+                                            <input  name="text" type="email"
+                                                   placeholder="Enter email address"/>
+                                            <button>SEND</button>
+                                        </label>
 
-                                </div>
+                                    </div>
                                 <div className="home_contact_call">
-                                    <a href="">CALL</a>
+                                    <a href="tel:+1-647-493-8100">CALL</a>
+
                                 </div>
                             </div>
                         </div>
@@ -192,9 +200,9 @@ const Home = () => {
                     <div className="media_development_description_bg "></div>
                     <div className="G-container">
                         <div className="media_development_description_body">
-
                             <div className="media_development_description_title">
-                                <p>Unlock Limitless Success in the Mortgage, Legal, and Real Estate Industry with Our Support</p>
+                                <p>Unlock Limitless Success in the Mortgage, Legal, and Real Estate Industry with Our
+                                    Support</p>
                             </div>
                             <div className="media_development_description_call">
                                 <a href="">CALL</a>
@@ -245,7 +253,8 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div className={!loadMore ? "home_our_services_content_rowRight" : 'home_our_services_content_rowRight active'}>
+                                <div
+                                    className={!loadMore ? "home_our_services_content_rowRight" : 'home_our_services_content_rowRight active'}>
                                     <div className="home_our_services_content_rowRight_item">
                                         <img src={services5} alt=""/>
                                         <p>Strategic Social Media Marketing</p>
@@ -259,14 +268,12 @@ const Home = () => {
                                         <p>SEO Content Writing</p>
                                     </div>
                                 </div>
-                                 <div className={!loadMore ?  "load_more_services" : 'load_more_services active'}>
-                                      <button onClick={openLoadMore}>{!loadMore ? "Load More" : 'Load Less'}
-                                          <span className="icon-circle-down load_more_services_icon"></span>
+                                <div className={!loadMore ? "load_more_services" : 'load_more_services active'}>
+                                    <button onClick={openLoadMore}>{!loadMore ? "Load More" : 'Load Less'}
+                                        <span className="icon-circle-down load_more_services_icon"></span>
 
-                                      </button>
-                                 </div>
-
-
+                                    </button>
+                                </div>
 
 
                             </div>
@@ -293,19 +300,21 @@ const Home = () => {
             {/*=========================SECTION home_user_question end===================*/}
 
             <div className="home_media_development_info">
-                <div style={{backgroundImage: `url(${group})`}} className="home_media_development_info_bg_image G-image">
+                <div style={{backgroundImage: `url(${group})`}}
+                     className="home_media_development_info_bg_image G-image">
                     <div className="home_media_development_info_bg"></div>
                     <div className="home_media_development_info_body">
-                         <div className="G-container">
-                             <div className="home_media_development_info_text">
-                                 <div className="home_media_development_info_text_row1">
-                                     <p>Mission Statement:</p>
-                                     <p> MMedia Development Group is a full-service digital marketing agency</p>
-                                 </div>
+                        <div className="G-container">
+                            <div className="home_media_development_info_text">
+                                <div className="home_media_development_info_text_row1">
+                                    <p>Mission Statement:</p>
+                                    <p> MMedia Development Group is a full-service digital marketing agency</p>
+                                </div>
 
-                                 <p>Attract,Impress,and Convert more leads online and get results with MMedia Development Group.</p>
-                             </div>
-                         </div>
+                                <p>Attract,Impress,and Convert more leads online and get results with MMedia Development
+                                    Group.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

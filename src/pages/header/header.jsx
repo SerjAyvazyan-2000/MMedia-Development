@@ -23,7 +23,7 @@ const Header = () => {
                         <Menu onClose={handleClick} openMenu={openMenu}/>
                     </div>
                     <div className="header_contact">
-                        <a className="header_phone" href=""><span className="icon-fa6-solid_phone-1"></span></a>
+                        <a className="header_phone" href="tel:+1-647-493-8100"><span className="icon-fa6-solid_phone-1"></span></a>
                         <div onClick={handleClick} className={ openMenu ? "burger-btn active" : "burger-btn"}>
                             <span ></span>
                         </div>
