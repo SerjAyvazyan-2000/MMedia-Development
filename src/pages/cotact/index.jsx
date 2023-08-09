@@ -23,7 +23,9 @@ const Contact = () => {
             <div className="contact_list">
               <div className="contact_list_item_phoneNumber">
                 <p>Phone number:</p>
-                <a href="tel:+1-647-493-8100">+1-647-493-8100</a>
+                <a href="https://wa.me/18059198069" target="_blank">
+                  +1-805-919-8069
+                </a>
                 <div className="contact_list_item_phoneNumber_icon">
                   <span className="icon-fa6-solid_phone-1"></span>
                 </div>
