@@ -137,13 +137,11 @@ const Home = () => {
                     <button>SEND</button>
                   </label>
                 </div>
-                <Link to="/contactUs">
-                  <div className="home_contact_call">
-                    <a href="tel:+1-647-493-8100" id="home_why_choose">
-                      CALL
-                    </a>
-                  </div>
-                </Link>
+                <div className="home_contact_call">
+                  <a href="tel:+1-647-493-8100" id="home_why_choose">
+                    CALL
+                  </a>
+                </div>
 
                 {/* <div className="home_contact_call">
                     <a href="tel:+1-647-493-8100" id="home_why_choose">
@@ -212,9 +210,11 @@ const Home = () => {
               <div className="media_development_description_title">
                 <p>Unlock Limitless Success in the Mortgage, Legal, and Real Estate Industry with Our Support</p>
               </div>
-              <div className="media_development_description_call">
-                <a href="">CALL</a>
-              </div>
+              <Link to="/contactUs">
+                <div className="media_development_description_call">
+                  <a href="">CALL</a>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
