@@ -39,14 +39,14 @@ const Services = () => {
         " set of videos that reinforce your brand's unique identity and resonate with your target audience.",
       state: "",
       mobileText:
-        "At MMedia Development Group, we offer Professional Video Production Services tailored specifically for mortgage brokers, real estate agents, and real estate lawyers. Our unique approach empowers you to showcase your expertise through video content that resonates with your target audience. With our expert scriptwriting and video editing, we will help you communicate your value proposition effectively, all while leveraging the convenience of self-filming.",
+        "At MMedia Development, we offer Professional Video Production Services tailored specifically for mortgage brokers, real estate agents, and real estate lawyers. Our unique approach empowers you to showcase your expertise through video content that resonates with your target audience. With our expert scriptwriting and video editing, we will help you communicate your value proposition effectively, all while leveraging the convenience of self-filming.",
       id: 1,
     },
     {
       title: "Why Choose Our Pay Per Click Marketing Services?",
       mobileTitle: "Effective Pay Per Click (PPC) Marketing:",
       mobileText:
-        "At MMedia Development Group, we offer Effective Pay Per Click (PPC) Marketing services specifically designed for mortgage brokers, real estate agents, and real estate lawyers. Our expertise in leveraging PPC advertising empowers you to position your brand in front of high-converting clients, increase " +
+        "At MMedia Development , we offer Effective Pay Per Click (PPC) Marketing services specifically designed for mortgage brokers, real estate agents, and real estate lawyers. Our expertise in leveraging PPC advertising empowers you to position your brand in front of high-converting clients, increase " +
         "search engine visibility, and achieve immediate results in the digital landscape.",
       img: img2,
       textNumber1:

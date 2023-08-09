@@ -60,7 +60,7 @@ const Home = () => {
               <div className="G-container">
                 <div className="home_text">
                   <p>
-                    Welcome to MMedia Development Group, your premier digital marketing partner specializing in driving
+                    Welcome to MMedia Development , your premier digital marketing partner specializing in driving
                     growth for mortgage brokers, real estate agents and real estate lawyers.
                   </p>
                   <div className="home_more_btn">
@@ -313,10 +313,10 @@ const Home = () => {
               <div className="home_media_development_info_text">
                 <div className="home_media_development_info_text_row1">
                   <p>Mission Statement:</p>
-                  <p> MMedia Development Group is a full-service digital marketing agency</p>
+                  <p> MMedia Development  is a full-service digital marketing agency</p>
                 </div>
 
-                <p>Attract,Impress,and Convert more leads online and get results with MMedia Development Group.</p>
+                <p>Attract,Impress,and Convert more leads online and get results with MMedia Development .</p>
               </div>
             </div>
           </div>

@@ -2,6 +2,7 @@ import React from "react";
 import aboutLogo from "../../assets/images/home1.jpg";
 import "./style.scss";
 import { scrollToUp } from "../../utils/scrollToUp";
+import img from  "../../assets/images/image00001.jpeg"
 
 const About = () => {
   scrollToUp();
@@ -87,19 +88,19 @@ const About = () => {
               </div>
 
               <div className="about_content_mauricio_info">
-                <div className="about_content_mauricio_info_title">
-                  <h3>
-                    <span>2</span>words from Mauricio <span className="icon-ooui_speech-bubbles-ltr-1"></span>
-                  </h3>
+                <div className="about_content_mauricio_info_text">
+                  <div className="about_content_mauricio_info_title">
+                    <h3><span>2</span>words from Mauricio <span className="icon-ooui_speech-bubbles-ltr"></span></h3>
+                  </div>
+                  <div className="about_content_mauricio_content">
+                    <p>
+                      <span className="icon-uniE906"></span>I invite you to reach out and schedule a consultation to discuss your digital
+                      marketing needs. Let's work together to leverage my industry expertise and digital
+                      marketing prowess to elevate your brand and drive your business forward.  <span className="icon-uniE906 icon_rotate"></span>
+                    </p>
+                  </div>
                 </div>
-                <div className="about_content_mauricio_content">
-                  <p>
-                    <span className="icon--1"></span>I invite you to reach out and schedule a consultation to discuss
-                    your digital marketing needs. Let's work together to leverage my industry expertise and digital
-                    marketing prowess to elevate your brand and drive your business forward.{" "}
-                    <span className="icon-uniE911"></span>
-                  </p>
-                </div>
+                <div style={{backgroundImage:`url(${img})`}} className="about_content_mauricio_info_img G-image"></div>
               </div>
             </div>
           </div>
