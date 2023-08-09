@@ -33,7 +33,7 @@ const Contact = () => {
               <div className="contact_list_item_email_location">
                 <div className="contact_list_item_location">
                   <p>Office Locations:</p>
-                  <span>Canada: 100 King St West, Suite 5700, Toronto, Ontario M5X 1C7 </span>
+                  <span>Canada: 100 King St West, Suite 5700, Toronto, Ontario M5X 1C7</span>
                   <div className="contact_list_item_location_icon">
                     <span className="icon-mi_location"></span>
                   </div>

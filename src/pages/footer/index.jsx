@@ -57,7 +57,7 @@ const Footer = () => {
               <div className="footer_contact_us_items">
                 <div className="footer_contact_us_item">
                   <span className="icon-location"></span>
-                  <p>USA: 550 West B Street, 4th Floor, San Diego, CA 92101</p>
+                  <p>Canada: 100 King St West, Suite 5700, Toronto, Ontario M5X 1C7</p>
                 </div>
 
                 <div className="footer_contact_us_item">
