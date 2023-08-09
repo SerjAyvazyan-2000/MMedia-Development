@@ -48,7 +48,6 @@ const Home = () => {
   const openLoadMore = () => {
     setLoadMore(!loadMore);
   };
-  scrollToUp();
 
   return (
     <section className="home_section">

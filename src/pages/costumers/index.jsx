@@ -15,16 +15,16 @@ const Costumers = () => {
         <div className="G-container">
           <div className="costumers_body">
             <div className="costumers_title">
-              <h3>Our Customers</h3>
+              <h3>The page is coming soon</h3>
             </div>
 
-            <div className="costumers_content">
+            {/* <div className="costumers_content">
               <div className="costumers_list">
                 {costumersList.map((item, index) => {
                   return <CostumersList reverse={item.reverse} key={item.id} item={item} />;
                 })}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ const MyModal = ({ item, active, onClose }) => {
   return (
     <div onClick={onClose} className={!active ? "popup" : "popup active"}>
       <div className="popup_content">
-        <div class="cross"></div>
+        <div className="cross"></div>
         <div className="popup_body">
           <div className="popup_services_img">
             <img src={item.img} alt="" />

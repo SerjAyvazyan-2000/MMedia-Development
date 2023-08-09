@@ -17,7 +17,6 @@ import ServicesItem from "../../components/servicesItem";
 import { scrollToUp } from "../../utils/scrollToUp";
 
 const Services = () => {
-  scrollToUp();
   const [ourServicesList, setOurServicesList] = useState([
     {
       title: "Why Choose Our Video Production Services?",
