@@ -29,6 +29,10 @@ import choseUs4 from "../../assets/images/4.png";
 import choseUs5 from "../../assets/images/5.png";
 import * as emailjs from "@emailjs/browser";
 import { scrollToUp } from "../../utils/scrollToUp";
+import { BrowserRouter, Link } from "react-router-dom";
+import { Routes } from "react-router-dom";
+import { Route } from "react-router-dom";
+import Contact from "./../cotact/index";
 
 const Home = () => {
   const [loadMore, setLoadMore] = useState(false);
@@ -61,7 +65,9 @@ const Home = () => {
                     growth for mortgage brokers, real estate agents and real estate lawyers.
                   </p>
                   <div className="home_more_btn">
-                    <button>More</button>
+                    <a href="#home_why_choose">
+                      <button>More</button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -131,9 +137,19 @@ const Home = () => {
                     <button>SEND</button>
                   </label>
                 </div>
-                <div className="home_contact_call">
-                  <a href="tel:+1-647-493-8100">CALL</a>
-                </div>
+                <Link to="/contactUs">
+                  <div className="home_contact_call">
+                    <a href="tel:+1-647-493-8100" id="home_why_choose">
+                      CALL
+                    </a>
+                  </div>
+                </Link>
+
+                {/* <div className="home_contact_call">
+                    <a href="tel:+1-647-493-8100" id="home_why_choose">
+                      CALL
+                    </a>
+                  </div> */}
               </div>
             </div>
           </div>
