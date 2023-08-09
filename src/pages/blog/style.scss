@@ -1,9 +1,23 @@
+@import "src/assets/style/variables";
 
+.block_section {
+  padding: 50px 0;
+  min-height: 60vh;
+  background-image: url(../../assets/images/custumerImgDark.png);
+  background-color: $mainColor;
 
-.block_section{
-   h3{
-      text-align: center;
-     color: red;
-     padding: 20px;
-   }
+  .videoBlock {
+    width: 90vw;
+    height: 90vh;
+    display: block;
+    margin: 30px auto;
+    max-width: 960px;
+    max-height: 615px;
+  }
+
+  h3 {
+    text-align: center;
+    color: red;
+    padding: 20px;
+  }
 }
