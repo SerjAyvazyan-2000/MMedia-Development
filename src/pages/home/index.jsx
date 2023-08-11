@@ -33,6 +33,7 @@ import { BrowserRouter, Link } from "react-router-dom";
 import { Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
 import Contact from "./../cotact/index";
+import Form from "./form";
 
 const Home = () => {
   const [loadMore, setLoadMore] = useState(false);
@@ -132,8 +133,7 @@ const Home = () => {
               <div className="home_contact_us_form">
                 <div className="home_contact_email">
                   <label htmlFor="">
-                    <input name="text" type="email" placeholder="Enter email address" />
-                    <button>SEND</button>
+                    <Form />
                   </label>
                 </div>
                 <div className="home_contact_call">
@@ -141,12 +141,6 @@ const Home = () => {
                     CALL
                   </a>
                 </div>
-
-                {/* <div className="home_contact_call">
-                    <a href="tel:+1-647-493-8100" id="home_why_choose">
-                      CALL
-                    </a>
-                  </div> */}
               </div>
             </div>
           </div>
@@ -313,7 +307,7 @@ const Home = () => {
               <div className="home_media_development_info_text">
                 <div className="home_media_development_info_text_row1">
                   <p>Mission Statement:</p>
-                  <p> MMedia Development  is a full-service digital marketing agency</p>
+                  <p> MMedia Development is a full-service digital marketing agency</p>
                 </div>
 
                 <p>Attract,Impress,and Convert more leads online and get results with MMedia Development .</p>
