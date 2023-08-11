@@ -19,26 +19,32 @@
   padding: 20px;
   cursor: pointer;
 
-
   &.active {
     opacity: 1;
     visibility: visible;
 
-    body{
-      &::-webkit-scrollbar{
+    body {
+      &::-webkit-scrollbar {
         display: none;
       }
     }
   }
 }
-.popup.active body{
-    &::-webkit-scrollbar{
-      display: none;
-    }
+.popup.active body {
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
-
-
+.cross:after {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #f3b620;
+  font-size: 50px;
+  font-weight: 700;
+  content: "\00d7";
+}
 
 .popup_content {
   background-color: $mainColor;
@@ -50,8 +56,6 @@
   border-radius: 20px;
   border: 2px solid $darkGold;
   padding: 20px;
-
-
 }
 
 .popup_body {
@@ -62,11 +66,10 @@
   height: 100%;
   padding: 20px;
 
-  &::-webkit-scrollbar{
+  &::-webkit-scrollbar {
     display: none;
   }
 }
-
 
 .popup_services_big_title {
   margin: 20px 0 0;
@@ -77,7 +80,6 @@
     color: $white;
     text-align: center;
     margin: 0 0 20px;
-
   }
 
   span {
@@ -86,8 +88,6 @@
     text-align: center;
     display: block;
     line-height: 40px;
-
-
   }
 }
 
@@ -98,34 +98,29 @@
     color: $white;
     text-align: center;
     line-height: 30px;
-
   }
 }
-.popup_services_title{
-   p{
-     font-weight: 700;
-     font-size: calc($fontSize18 + 10 * (100vw / 1920));
-     color: $white;
-     text-align: center;
-   }
+.popup_services_title {
+  p {
+    font-weight: 700;
+    font-size: calc($fontSize18 + 10 * (100vw / 1920));
+    color: $white;
+    text-align: center;
+  }
 }
-.popup_body > :not(:last-child){
-    margin: 0 0 40px;
+.popup_body > :not(:last-child) {
+  margin: 0 0 40px;
 }
-.onclose_popup{
-   position: absolute;
+.onclose_popup {
+  position: absolute;
   right: 10px;
   top: 10px;
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
   padding: 5px;
 
-
-
-  &:hover{
+  &:hover {
     background-color: black;
     border-radius: 10px;
-
-
   }
 }

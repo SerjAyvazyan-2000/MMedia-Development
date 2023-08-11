@@ -191,14 +191,17 @@
 }
 
 .about_content_mauricio_info {
-  padding: 60px;
+  padding: 10px;
   border: 2px solid $darkGold;
   margin: 0 auto;
   border-radius: 50px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   max-width: 1000px;
+  @media screen and (max-width: $md3 + px){
+    flex-direction: column;
+  }
 
 }
 .about_content_mauricio_info_title{
@@ -220,12 +223,37 @@
     align-items: center;
     justify-content: center;
     max-width: 1000px;
+    span{
+      font-weight: 700;
+      font-size: 30px;
+    }
 
   }
 }
 .about_content_mauricio_info > :not(:last-child){
-   margin: 0 0 46px;
+  margin: 0 0 46px;
 }
 .about_content_mauricio_info{
-   margin-top: 30px;
+  margin-top: 30px;
+}
+
+.about_content_mauricio_info_text{
+  max-width: 69%;
+  @media screen and (max-width: $md3 + px){
+    max-width: 100%;
+  }
+}
+.about_content_mauricio_content{
+
+}
+.about_content_mauricio_info_img{
+  width: 29%;
+  height: 250px;
+  border-radius: 50px;
+  @media screen and (max-width: $md3 + px){
+    width: 60%;
+  }
+  @media screen and (max-width: $md4 + px){
+    width: 100%;
+  }
 }
