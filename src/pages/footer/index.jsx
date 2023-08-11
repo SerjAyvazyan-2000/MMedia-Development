@@ -74,15 +74,16 @@ const Footer = () => {
                 </div>
               </div>
               <div className="footer_contact_us_icons">
-                <a href="https://www.instagram.com/mmediadevelopment/?igshid=OGQ5ZDc2ODk2ZA">
+                <a target="_blank" href="https://www.instagram.com/mmediadevelopment/?igshid=OGQ5ZDc2ODk2ZA">
                   <span className="icon-teenyicons_instagram-solid"></span>
                 </a>
-                <a href="https://www.facebook.com/profile.php?id=100095503748806&mibextid=LQQJ4d">
+                <a target="_blank"  href="https://www.facebook.com/profile.php?id=100095503748806&mibextid=LQQJ4d">
                   <span className="icon-uil_facebook"></span>
                 </a>
-                <a href="https://wa.me/+1 (805) 919‑8069">
+                <a target="_blank" href="https://wa.me/+1-805-919-8069">
                   <span className="icon-uim_whatsapp icon_whatsapp"></span>
                 </a>
+
               </div>
             </div>
           </div>
