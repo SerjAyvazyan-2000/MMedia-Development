@@ -62,7 +62,7 @@ const Home = () => {
                 <div className="home_text">
                   <p>
                     Welcome to MMedia Development , your premier digital marketing partner specializing in driving
-                    growth for mortgage brokers, real estate agents and real estate lawyers.
+                    growth for Mortgage Brokers/Agents, Real Estate Agents and Real Estate Lawyers
                   </p>
                   <div className="home_more_btn">
                     <a href="#home_why_choose">

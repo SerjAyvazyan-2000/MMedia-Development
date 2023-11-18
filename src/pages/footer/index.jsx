@@ -80,8 +80,9 @@ const Footer = () => {
                 <a target="_blank"  href="https://www.facebook.com/profile.php?id=100095503748806&mibextid=LQQJ4d">
                   <span className="icon-uil_facebook"></span>
                 </a>
-                <a target="_blank" href="https://wa.me/+1-805-919-8069">
+                <a  target='_blank' href="https://wa.me/18059198069">
                   <span className="icon-uim_whatsapp icon_whatsapp"></span>
+
                 </a>
 
               </div>
